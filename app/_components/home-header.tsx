@@ -8,7 +8,7 @@ export default function HomeHeader(){
 
     <div className="flex flex-col border border-[#50B498] ">
 
-      <div className="flex items-center justify-between  md:gap-[2.28125em] lg:gap-[6.28125em] xl:gap-[14.5625em]">
+      <div className="flex items-center justify-between  mx-[1em] md:mx-[2em] lg:mx-[4.4375em] lg:gap-[3em]">
 
         <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="border border-[#50B498]   "></Image>
 
@@ -16,11 +16,11 @@ export default function HomeHeader(){
 
           <div className="flex items-center md:gap-[2em] lg:gap-[4em]">
 
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light">About us</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light">Menu</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light">Events</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light">News</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light">Contacts</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">About us</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">Menu</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap" >Events</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">News</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">Contacts</div>
 
           </div>
 
@@ -39,7 +39,7 @@ export default function HomeHeader(){
                 alt="facebook logo"
                 width={48}
                 height={48}
-                className="border border-[#50B498]"
+                className="border border-[#50B498] min-w-[3em]"
               />
               <Image
                 src={'/facebook.svg'}
@@ -57,7 +57,7 @@ export default function HomeHeader(){
                 alt="facebook logo"
                 width={48}
                 height={48}
-                className="border border-[#50B498]"
+                className="border border-[#50B498] min-w-[3em]"
               />
               <Image
                 src={'/twitter.svg'}
@@ -69,13 +69,13 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="relative">
+            <div className="relative  ">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
                 width={48}
                 height={48}
-                className="border border-[#50B498]"
+                className="border border-[#50B498] min-w-[3em]"
               />
               <Image
                 src={'/instagram.svg'}
@@ -92,6 +92,25 @@ export default function HomeHeader(){
 
         </div>
 
+
+        {/* Humberger */}
+        
+        <div className="relative md:hidden lg:hidden xl:hidden">
+          <Image
+            src={'/oval.svg'}
+            alt="facebook logo"
+            width={48}
+            height={48}
+            className="border border-[#50B498] min-w-[3em]"
+          />
+          <Image
+            src={'/humberger.svg'}
+            alt="facebook logo"
+            width={20}
+            height={16}
+            className="border border-[#50B498] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          />
+        </div>
 
 
       </div>

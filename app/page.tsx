@@ -9,7 +9,7 @@ export default function Home() {
       <div className="absolute inset-0 bg-black opacity-80"></div>
 
       {/* Content */}
-      <div className="z-10 flex flex-col items-center justify-center border border-[#50B498]">
+      <div className="z-10  ">
         <HomeHeader/>
       </div>
 
