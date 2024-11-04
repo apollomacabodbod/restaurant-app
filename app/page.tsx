@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HomeHeader from "./_components/home-header";
+import HomeCube from "./_components/home-cube";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       {/* Content */}
       <div className="z-10  ">
         <HomeHeader/>
+        <HomeCube/>
       </div>
 
 

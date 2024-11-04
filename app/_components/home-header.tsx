@@ -8,7 +8,7 @@ export default function HomeHeader(){
 
     <div className="flex flex-col border border-[#50B498] ">
 
-      <div className="flex items-center justify-between  mx-[1em] md:mx-[2em] lg:mx-[4.4375em] lg:gap-[3em]">
+      <div className="flex items-center justify-between  mx-[1em] md:mx-[2em] lg:mx-[4.4375em] lg:gap-[2em]">
 
         <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="border border-[#50B498]   "></Image>
 
