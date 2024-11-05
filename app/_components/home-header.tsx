@@ -33,7 +33,7 @@ export default function HomeHeader(){
           <div className="flex items-center gap-[0.5em] transition-all duration-1000 ease-in-out">
     
             {/* Container for overlayed images */}
-            <div className="relative">
+            <div className="relative cursor-pointer">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
@@ -51,7 +51,7 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="relative">
+            <div className="relative cursor-pointer">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
@@ -69,7 +69,7 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="relative  ">
+            <div className="relative  cursor-pointer">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
