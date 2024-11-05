@@ -8,13 +8,13 @@ export default function HomeCube() {
 
         <div className="relative">
 
-          <p className="text-[3.5em]  md:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.05em]  md:tracking-[0.15em] font-serif    leading-[0.9em]">
+          <p className="text-[3.5em]  md:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.05em]  md:tracking-[0.15em] font-serif    leading-[0.9em] transition-all duration-1000 ease-in-out">
                     Welcome 
-            <br className="lg:hidden"/> 
+            <br className="lg:hidden transition-all duration-1000 ease-in-out"/> 
                     to our 
           </p>
 
-          <p className="text-[3.5em]  md:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.02em] font-serif  leading-[1.4em] md:leading-[1.4em]">
+          <p className="text-[3.5em]  md:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.02em] font-serif  leading-[1.4em] md:leading-[1.4em] transition-all duration-1000 ease-in-out">
                     Restaurant
           </p>
 
