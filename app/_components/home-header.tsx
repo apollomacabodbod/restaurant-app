@@ -14,7 +14,7 @@ export default function HomeHeader(){
 
         <div className="flex flex-col border border-[#50B498] hidden md:flex  ">
 
-          <div className="flex items-center md:gap-[2em] lg:gap-[4em]">
+          <div className="flex items-center md:gap-[2em] lg:gap-[4em] transition-all duration-1000 ease-in-out">
 
             <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">About us</div>
             <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">Menu</div>
@@ -30,7 +30,7 @@ export default function HomeHeader(){
 
         <div className="flex flex-col hidden md:flex ">
 
-          <div className="flex items-center gap-[0.5em]">
+          <div className="flex items-center gap-[0.5em] transition-all duration-1000 ease-in-out">
     
             {/* Container for overlayed images */}
             <div className="relative">
