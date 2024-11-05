@@ -16,11 +16,11 @@ export default function HomeHeader(){
 
           <div className="flex items-center md:gap-[2em] lg:gap-[4em] transition-all duration-1000 ease-in-out">
 
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">About us</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">Menu</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap" >Events</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">News</div>
-            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap">Contacts</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">About us</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">Menu</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]" >Events</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">News</div>
+            <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">Contacts</div>
 
           </div>
 
