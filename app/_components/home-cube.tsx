@@ -46,23 +46,21 @@ Restaurant
 
 
 
-          <div className="flex flex-col">
 
-            <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center">
 
-              <Image 
-                src={'/rice.svg'} 
-                alt="friend rice icon"
-                width={673} 
-                height={673}
-                className="w-[26.22275em] sm:w-[42.0625em] border border-[#50B498]"
+            <Image 
+              src={'/rice.svg'} 
+              alt="friend rice icon"
+              width={673} 
+              height={673}
+              className="w-[26.22275em] sm:w-[42.0625em] border border-[#50B498]"
 
-              />
+            />
 
-
-            </div>
 
           </div>
+
 
 
 
