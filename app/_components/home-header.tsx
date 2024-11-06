@@ -8,7 +8,7 @@ export default function HomeHeader(){
 
     <div className="flex flex-col border border-[#50B498] ">
 
-      <div className="flex items-center justify-between  mx-[1em] md:mx-[2em] lg:mx-[4.4375em] lg:gap-[2em] transition-all duration-1000 ease-in-out">
+      <div className="flex items-center justify-between  mx-[1em] sm:mx-[2em] lg:mx-[8.4375em] lg:gap-[2em] transition-all duration-1000 ease-in-out">
 
         <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="border border-[#50B498]  cursor-pointer "></Image>
 
@@ -28,7 +28,7 @@ export default function HomeHeader(){
 
 
 
-        <div className="flex flex-col hidden md:flex ">
+        <div className=" flex-col hidden sm:flex ">
 
           <div className="flex items-center gap-[0.5em] transition-all duration-1000 ease-in-out">
     
@@ -95,7 +95,7 @@ export default function HomeHeader(){
 
         {/* Humberger */}
         
-        <div className="relative md:hidden lg:hidden xl:hidden">
+        <div className="relative sm:hidden lg:hidden xl:hidden">
           <Image
             src={'/oval.svg'}
             alt="facebook logo"
