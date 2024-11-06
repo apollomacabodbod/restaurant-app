@@ -6,15 +6,15 @@ export default function HomeHeader(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] ">
+    <div className="flex flex-col border border-[#50B498] mt-[1em] mx-[1em] lg:mx-[8.4375em] transition-all duration-1000 ease-in-out">
 
-      <div className="flex items-center justify-between  mx-[1em] sm:mx-[2em] lg:mx-[8.4375em] lg:gap-[2em] transition-all duration-1000 ease-in-out">
+      <div className="flex items-center justify-between transition-all duration-1000 ease-in-out">
 
         <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="border border-[#50B498]  cursor-pointer "></Image>
 
-        <div className="flex flex-col border border-[#50B498] hidden md:flex  ">
+        <div className="flex-col border border-[#50B498] sm:flex hidden  ">
 
-          <div className="flex items-center md:gap-[2em] lg:gap-[4em] transition-all duration-1000 ease-in-out">
+          <div className="flex items-center  sm:gap-[0.4em] md:gap-[2em]  transition-all duration-1000 ease-in-out">
 
             <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">About us</div>
             <div className="border border-[#50B498] font-['Roboto'] text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">Menu</div>
@@ -28,9 +28,9 @@ export default function HomeHeader(){
 
 
 
-        <div className=" flex-col hidden sm:flex ">
+        <div className="flex-col sm:flex hidden">
 
-          <div className="flex items-center gap-[0.5em] transition-all duration-1000 ease-in-out">
+          <div className="flex items-center sm:gap-[0.4em] transition-all duration-1000 ease-in-out">
     
             {/* Container for overlayed images */}
             <div className="relative cursor-pointer">
@@ -95,7 +95,7 @@ export default function HomeHeader(){
 
         {/* Humberger */}
         
-        <div className="relative sm:hidden lg:hidden xl:hidden">
+        <div className="relative  sm:hidden ">
           <Image
             src={'/oval.svg'}
             alt="facebook logo"

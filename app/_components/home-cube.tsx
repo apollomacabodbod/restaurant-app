@@ -3,23 +3,23 @@ import Image from "next/image";
 export default function HomeCube() {
   return (
     <>
-      <div className="flex flex-col border border-[#50B498]  mx-[1em] lg:mx-[8.4375em] mt-[9.625em]">
+      <div className="flex flex-col border border-[#50B498]  mx-[1em] lg:mx-[8.4375em] mt-[9.625em] transition-all duration-1000 ease-in-out">
               
 
-        <div className="md:flex md:items-center">
+        <div className="sm:flex sm:items-center transition-all duration-1000 ease-in-out">
 
 
-          <div className="flex flex-col">
+          <div className="flex flex-col  ">
 
             <div className="relative">
 
-              <p className="text-[3.5em]  md:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.05em]  md:tracking-[0.12em] font-serif    leading-[0.9em] transition-all duration-1000 ease-in-out">
+              <p className="text-[3.5em]  sm:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.05em]  sm:tracking-[0.12em] font-serif    leading-[0.9em] transition-all duration-1000 ease-in-out">
 Welcome 
                 <br className="lg:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
               </p>
 
-              <p className="text-[3.5em]  md:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.02em] font-serif  leading-[1.4em] md:leading-[1.4em] transition-all duration-1000 ease-in-out">
+              <p className="text-[3.5em]  sm:text-[4.5rem] border border-[#50B498] font-bold  tracking-[0.02em] font-serif  leading-[1.4em] sm:leading-[1.4em] transition-all duration-1000 ease-in-out">
 Restaurant
               </p>
 

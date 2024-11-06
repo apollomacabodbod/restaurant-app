@@ -25,3 +25,27 @@ body {
     padding: 0;
 }
 
+
+/* Add this in your globals.css or any global CSS file */
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* width for vertical scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #424242; /* Match the background of the body */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #686868; /* Modern gray color for the scrollbar thumb */
+  border-radius: 8px;
+  border: 2px solid transparent; /* Adds padding around the thumb */
+  background-clip: content-box; /* Creates a thin, inset thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #686868; /* Slightly darker gray on hover */
+}
+
+
