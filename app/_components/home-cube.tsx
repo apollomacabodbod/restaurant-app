@@ -13,13 +13,13 @@ export default function HomeCube() {
 
             <div className="relative">
 
-              <p className="text-[3.5em]  sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap border border-[#50B498] font-bold  font-serif tracking-[0.09em]  lg:tracking-[0.09em] transition-all duration-1000 ease-in-out">
+              <p className="text-[3.5em]  sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap border border-[#50B498] font-bold  font-serif leading-[1.3em] tracking-[0.08em]  lg:tracking-[0.08em] transition-all duration-1000 ease-in-out">
                Welcome 
                 <br className="sm:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
               </p>
 
-              <p className="text-[3.5em] sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  border border-[#50B498] font-bold  tracking-[0.02em] font-serif  leading-[1.4em] sm:leading-[1.4em] transition-all duration-1000 ease-in-out">
+              <p className="text-[3.5em] sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  border border-[#50B498] font-bold   font-serif leading-[1em] transition-all duration-1000 ease-in-out ">
                Restaurant
               </p>
 
@@ -32,7 +32,7 @@ export default function HomeCube() {
                   width={176}
                   height={176}
                   // className="border border-[#50B498] absolute top-[2em] left-[16em] md:left-[22em] -translate-x-1/2 -translate-y-1/2 leading-tight tracking-tight"
-                  className="border border-[#50B498] absolute top-[3.5em] sm:top-[1.7em]    left-[14.5em]   sm:left-[13.5em] md:left-[16em]  lg:left-[16em] xl:left-[24em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
+                  className="border border-[#50B498] absolute top-[4.5em]  sm:top-[1.9em]  xl:top-[2.8em]   left-[14.5em]   sm:left-[13.5em] md:left-[16em]  lg:left-[16em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
                 />
 
 
