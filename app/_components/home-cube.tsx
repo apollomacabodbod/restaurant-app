@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HomeCube() {
   return (
     <>
-      <div className="flex flex-col border border-[#50B498]  mx-[1em] lg:mx-[8.4375em] mt-[9.625em] transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col border border-[#50B498] mt-[2.6875em] mx-[1em] lg:mx-[8.4375em] sm:mt-[9.625em] transition-all duration-1000 ease-in-out">
               
 
         <div className="sm:flex sm:items-center transition-all duration-1000 ease-in-out">
