@@ -43,7 +43,7 @@ export default function HomeCube() {
             </div>
 
 
-            <p className="text-[1.5rem] font-roboto text-[#FFF] not-italic font-light">Everyday 8:00 am - 23:00 pm</p>
+            <p className="text-[1.5rem] font-roboto text-[#FFF] not-italic font-light leading-[2em]">Everyday 8:00 am - 23:00 pm</p>
 
           </div>
 
