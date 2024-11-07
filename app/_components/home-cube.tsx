@@ -50,7 +50,7 @@ export default function HomeCube() {
             <div className="flex items-center border border-[#50B498] gap-[1.875em] mt-[2.5em]">
 
               <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">Book a table</button>
-              <button className="font-roboto py-[0.75em]  border border-slate-400 text-[#FFFFFF] px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">See menu</button>
+              <button className="font-roboto py-[0.75em]  border border-[#7a7b7c] text-[#FFFFFF] px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">See menu</button>
 
             </div>
 
