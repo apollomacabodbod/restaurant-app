@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HomeHeader from "./_components/home-header";
 import HomeCube from "./_components/home-cube";
+import HomeOval from "./_components/home-oval";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <div className="z-10  ">
         <HomeHeader/>
         <HomeCube/>
+        <HomeOval/>
       </div>
 
 
