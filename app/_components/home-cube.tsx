@@ -60,7 +60,7 @@ export default function HomeCube() {
 
 
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center mt-[1.12em] sm:mt-[0em]">
 
             <Image 
               src={'/rice.svg'} 
