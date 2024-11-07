@@ -11,13 +11,15 @@ export default function Home() {
       <div className="absolute inset-0 bg-black opacity-80"></div>
 
       {/* Content */}
-      <div className="z-10  ">
-        <HomeHeader/>
-        <HomeCube/>
-        <HomeOval/>
+      <div className="relative z-10 flex-grow">
+        <HomeHeader />
+        <HomeCube />
       </div>
 
-
+      {/* Footer with HomeOval */}
+      <footer className="relative z-10">
+        <HomeOval />
+      </footer>
 
     </div>
   );

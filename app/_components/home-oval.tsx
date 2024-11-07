@@ -6,7 +6,7 @@ export default function HomeOval(){
     
     <>
 
-      <div className="flex flex-col mb-[3em]">
+      <div className="flex flex-col mb-[3em] mt-[1em]">
 
         <div className="flex items-center justify-center">
 

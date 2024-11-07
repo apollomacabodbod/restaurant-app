@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HomeCube() {
   return (
     <>
-      <div className="flex flex-col border border-[#50B498] mt-[2.6875em] sm:mt-[3.8125em] mx-[1em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col border border-[#50B498] mt-[2.6875em] sm:mt-[9em] xl:mt-[3.8125em] lg:mt-[5.8125em]  mx-[1em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
               
 
         <div className="sm:flex sm:items-center sm:justify-between transition-all duration-1000 ease-in-out">
@@ -50,7 +50,7 @@ export default function HomeCube() {
             <div className="flex items-center border border-[#50B498] gap-[1.875em] mt-[2.5em]">
 
               <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">Book a table</button>
-              <button className="font-roboto py-[0.75em]  border border-[#7a7b7c] text-[#FFFFFF] px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">See menu</button>
+              <button className="font-roboto py-[0.75em]  border-2 border-[#7a7b7c] text-[#FFFFFF] px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">See menu</button>
 
             </div>
 
@@ -65,9 +65,9 @@ export default function HomeCube() {
             <Image 
               src={'/rice.svg'} 
               alt="friend rice icon"
-              width={673} 
-              height={673}
-              className="w-[26.22275em] sm:w-[42.0625em] border border-[#50B498]"
+              width={555} 
+              height={555}
+              className="w-[26.22275em] sm:w-[34.6875em] border border-[#50B498]"
 
             />
 
