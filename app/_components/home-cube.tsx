@@ -13,13 +13,13 @@ export default function HomeCube() {
 
             <div className="relative">
 
-              <p className="text-[3.5em]  sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap border border-[#50B498] font-bold  font-serif leading-[1.3em] tracking-[0.08em]  lg:tracking-[0.08em] transition-all duration-1000 ease-in-out">
+              <p className="text-[3.5em]  sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap border border-[#50B498] font-bold  font-pt-serif leading-[1.3em] tracking-[0.08em]  lg:tracking-[0.08em] transition-all duration-1000 ease-in-out">
                Welcome 
                 <br className="sm:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
               </p>
 
-              <p className="text-[3.5em] sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  border border-[#50B498] font-bold   font-serif leading-[1em] transition-all duration-1000 ease-in-out ">
+              <p className="text-[3.5em] sm:text-[3.2rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  border border-[#50B498] font-bold   font-pt-serif leading-[1em] transition-all duration-1000 ease-in-out ">
                Restaurant
               </p>
 
@@ -41,6 +41,9 @@ export default function HomeCube() {
 
 
             </div>
+
+
+            <p className="text-[1.5rem] font-roboto text-[#FFF] not-italic font-light">Everyday 8:00 am - 23:00 pm</p>
 
           </div>
 
