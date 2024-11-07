@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HomeCube() {
   return (
     <>
-      <div className="flex flex-col border border-[#50B498] mt-[2.6875em] mx-[1em] lg:mx-[8.4375em] sm:mt-[9.625em] transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col border border-[#50B498] mt-[2.6875em] mx-[1em] lg:mx-[8.4375em] sm:mt-[5.625em] transition-all duration-1000 ease-in-out">
               
 
         <div className="sm:flex sm:items-center sm:justify-between transition-all duration-1000 ease-in-out">
@@ -43,7 +43,17 @@ export default function HomeCube() {
             </div>
 
 
-            <p className="text-[1.5rem] font-roboto text-[#FFF] not-italic font-light leading-[2em]">Everyday 8:00 am - 23:00 pm</p>
+            <p className="text-[1.5rem] font-roboto text-[#FFF] not-italic font-light leading-[2em] mt-[1.6875em]">Everyday 8:00 am - 23:00 pm</p>
+
+
+
+            <div className="flex items-center border border-[#50B498] gap-[1.875em] mt-[2.5em]">
+
+              <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">Book a table</button>
+              <button className="font-roboto py-[0.75em]  border border-slate-400 text-[#FFFFFF] px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em]">See menu</button>
+
+            </div>
+
 
           </div>
 
