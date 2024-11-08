@@ -1,8 +1,41 @@
+"use client"
+
 
 import Image from "next/image"
 import Link from "next/link"
+import { useEffect, useState } from "react";
 
 export default function HomeHeader(){
+
+  // State to manage sidebar visibility
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  // Function to toggle sidebar
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
+
+
+  // Automatically close sidebar when viewport is larger than small screen
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 640) {
+        setIsSidebarOpen(false);
+      }
+    };
+
+    // Add event listener for resize
+    window.addEventListener("resize", handleResize);
+
+    // Clean up event listener on unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+
+
 
   return (<>
 
@@ -18,11 +51,11 @@ export default function HomeHeader(){
           <div className="flex items-center  sm:gap-[0.4em] md:gap-[2em]  transition-all duration-1000 ease-in-out">
 
 
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">About us </Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
-            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
 
           </div>
 
@@ -95,6 +128,38 @@ export default function HomeHeader(){
         </div>
 
 
+
+        {/* Sidebar for Mobile (Right Side) */}
+        <div
+          className={`fixed top-0 right-0 h-full w-[75%] max-w-[18em] bg-center bg-cover bg-no-repeat bg-fixed bg-[url('/hero-background.svg')] z-50 transform ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500 ease-in-out` }
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black opacity-80"></div>
+
+          <div className="flex flex-col items-start p-4 relative">
+
+            <Image
+              src={'close-icon.svg'}
+              width={0}
+              height={0}
+              alt="menu icon"
+              onClick={toggleSidebar} // Toggle sidebar on click
+              className="lg:hidden w-full bg-cover bg-center bg-no-repeat bg-fixed max-w-[2em] cursor-pointer self-end  transform active:scale-95 transition-transform duration-200"
+            />
+
+            
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+
+            
+          </div>
+        </div>
+
+
+
         {/* Humberger */}
         
         <div className="relative  sm:hidden transform active:scale-95 transition-transform duration-200 cursor-pointer">
@@ -103,7 +168,8 @@ export default function HomeHeader(){
             alt="facebook logo"
             width={48}
             height={48}
-            className="border border-[#50B498] min-w-[3em]"
+            className="border border-[#50B498] min-w-[3em] "
+            onClick={toggleSidebar} // Toggle sidebar on click
           />
           <Image
             src={'/humberger.svg'}
@@ -111,11 +177,24 @@ export default function HomeHeader(){
             width={20}
             height={16}
             className="border border-[#50B498] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            onClick={toggleSidebar} // Toggle sidebar on click
           />
         </div>
 
 
       </div>
+
+
+
+      {/* Overlay for Sidebar */}
+      {isSidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black opacity-50 z-40"
+          onClick={toggleSidebar}
+        ></div>
+      )}
+
+
 
 
 

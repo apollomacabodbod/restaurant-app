@@ -11,13 +11,13 @@ export default function Home() {
       <div className="absolute inset-0 bg-black opacity-80"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex-grow">
+      <div className="relative flex-grow">
         <HomeHeader />
         <HomeCube />
       </div>
 
       {/* Footer with HomeOval */}
-      <footer className="relative z-10">
+      <footer className="relative ">
         <HomeOval />
       </footer>
 
