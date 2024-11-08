@@ -1,5 +1,6 @@
 
 import Image from "next/image"
+import Link from "next/link"
 
 export default function HomeHeader(){
 
@@ -12,15 +13,16 @@ export default function HomeHeader(){
 
         <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="border border-[#50B498]  cursor-pointer "></Image>
 
-        <div className="flex-col border border-[#50B498] sm:flex hidden  ">
+        <div className="flex-col  sm:flex hidden  ">
 
           <div className="flex items-center  sm:gap-[0.4em] md:gap-[2em]  transition-all duration-1000 ease-in-out">
 
-            <div className="border border-[#50B498] font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">About us</div>
-            <div className="border border-[#50B498] font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">Menu</div>
-            <div className="border border-[#50B498] font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]" >Events</div>
-            <div className="border border-[#50B498] font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">News</div>
-            <div className="border border-[#50B498] font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]">Contacts</div>
+
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2 focus:border-[#FFF] hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
 
           </div>
 
