@@ -13,13 +13,13 @@ export default function HomeCube() {
 
             <div className="relative">
 
-              <p className="text-[3.5em]  sm:text-[3.1rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap border border-[#50B498] font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out">
+              <p className="text-[#FFF] dark:text-[#FFF] text-[3.5em]  sm:text-[3.1rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap border border-[#50B498] font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out">
                Welcome 
                 <br className="sm:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
               </p>
 
-              <p className="text-[3.5em] sm:text-[3.1rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  border border-[#50B498] font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
+              <p className="text-[#FFF] dark:text-[#FFF] text-[3.5em] sm:text-[3.1rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  border border-[#50B498] font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
                Restaurant
               </p>
 

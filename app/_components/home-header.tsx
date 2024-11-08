@@ -48,14 +48,14 @@ export default function HomeHeader(){
 
         <div className="flex-col  sm:flex hidden  ">
 
-          <div className="flex items-center  sm:gap-[0.4em] md:gap-[2em]  transition-all duration-1000 ease-in-out">
+          <div className="flex items-center  sm:gap-[0.6em] md:gap-[2em]  transition-all duration-1000 ease-in-out ">
 
 
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">About us </Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
-            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+            <Link href={"#"} className=" font-roboto  sm:text-[1rem] md:text-[1.25rem]  leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
 
           </div>
 
@@ -63,7 +63,7 @@ export default function HomeHeader(){
 
 
 
-        <div className="flex-col sm:flex hidden">
+        <div className="sm:flex-col sm:flex hidden transition-all duration-1000 ease-in-out">
 
           <div className="flex items-center sm:gap-[0.4em] transition-all duration-1000 ease-in-out">
     
