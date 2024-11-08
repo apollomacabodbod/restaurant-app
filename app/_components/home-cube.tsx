@@ -49,8 +49,8 @@ export default function HomeCube() {
 
             <div className="flex items-center border border-[#50B498] gap-[1.875em] mt-[2.5em]">
 
-              <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] transform active:scale-95 transition-transform duration-200">Book a table</button>
-              <button className="font-roboto py-[0.75em]  border-2 border-[#7a7b7c] text-[#FFFFFF] px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] transform active:scale-95 transition-transform duration-200">See menu</button>
+              <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[1.2em] sm:px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] transform active:scale-95 transition-transform duration-200 ">Book a table</button>
+              <button className="font-roboto py-[0.75em]  border-2 border-[#7a7b7c] text-[#FFFFFF] px-[1.3em] sm:px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] transform active:scale-95 transition-transform duration-200">See menu</button>
 
             </div>
 
