@@ -11,7 +11,7 @@ export default function HomeHeader(){
 
       <div className="flex items-center justify-between transition-all duration-1000 ease-in-out">
 
-        <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="border border-[#50B498]  cursor-pointer "></Image>
+        <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="border border-[#50B498]  cursor-pointer transform active:scale-95 transition-transform duration-200"></Image>
 
         <div className="flex-col  sm:flex hidden  ">
 
@@ -35,7 +35,7 @@ export default function HomeHeader(){
           <div className="flex items-center sm:gap-[0.4em] transition-all duration-1000 ease-in-out">
     
             {/* Container for overlayed images */}
-            <div className="relative cursor-pointer">
+            <div className="relative cursor-pointer transform active:scale-95 transition-transform duration-200">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
@@ -53,7 +53,7 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="relative cursor-pointer">
+            <div className="relative cursor-pointer transform active:scale-95 transition-transform duration-200">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
@@ -71,7 +71,7 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="relative  cursor-pointer">
+            <div className="relative  cursor-pointer transform active:scale-95 transition-transform duration-200">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
