@@ -16,7 +16,7 @@ export default function HomeOval(){
               alt="oval logo"
               width={48}
               height={48}
-              className="border border-[#50B498] min-w-[3em]"
+              className=" min-w-[3em]"
             />
             <Image
               src={'/path.svg'}

@@ -68,56 +68,56 @@ export default function HomeHeader(){
           <div className="flex items-center sm:gap-[0.4em] transition-all duration-1000 ease-in-out">
     
             {/* Container for overlayed images */}
-            <div className="relative cursor-pointer transform active:scale-95 transition-transform duration-200">
+            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
                 width={48}
                 height={48}
-                className="border border-[#50B498] min-w-[3em]"
+                className=" min-w-[3em]"
               />
               <Image
                 src={'/facebook.svg'}
                 alt="facebook logo"
                 width={15}
                 height={16}
-                className="border border-[#50B498] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 "
               />
             </div>
 
 
-            <div className="relative cursor-pointer transform active:scale-95 transition-transform duration-200">
+            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
                 width={48}
                 height={48}
-                className="border border-[#50B498] min-w-[3em]"
+                className=" min-w-[3em]"
               />
               <Image
                 src={'/twitter.svg'}
                 alt="facebook logo"
                 width={20}
                 height={16}
-                className="border border-[#50B498] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 "
               />
             </div>
 
 
-            <div className="relative  cursor-pointer transform active:scale-95 transition-transform duration-200">
+            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
                 width={48}
                 height={48}
-                className="border border-[#50B498] min-w-[3em]"
+                className=" min-w-[3em]"
               />
               <Image
                 src={'/instagram.svg'}
                 alt="facebook logo"
                 width={20}
                 height={16}
-                className="border border-[#50B498] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 "
               />
             </div>
 
