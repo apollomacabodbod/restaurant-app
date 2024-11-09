@@ -27,7 +27,7 @@ export default function HomeDiscover(){
               alt="path logo"
               width={170}
               height={170}
-              className="absolute top-[12em] sm:top-[25em] md:top-[29em] left-[2em] sm:left-[2em] -translate-x-1/2 -translate-y-1/2   border border-[#50B498] green transition-all duration-1000 ease-in-out"
+              className="absolute top-[12em] left-[2em] sm:top-[25em] md:top-[29em]  sm:left-[2em] -translate-x-1/2 -translate-y-1/2   border border-[#50B498] green transition-all duration-1000 ease-in-out"
             />
 
             <Image
@@ -36,7 +36,7 @@ export default function HomeDiscover(){
               alt="home-combine-shapes icon"
               width={176}
               height={176}
-              className="absolute top-[8em] left-[12.9em] sm:top-[10em] sm:left-[32.83em] -translate-x-1/2 -translate-y-1/2"
+              className="absolute top-[8em] left-[13em]  sm:top-[10em] sm:left-[30.83em] md:left-[32.83em] -translate-x-1/2 -translate-y-1/2 border border-[#50B498] green transition-all duration-1000 ease-in-out"
             
             >
             </Image>
