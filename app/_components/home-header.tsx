@@ -180,7 +180,7 @@ export default function HomeHeader(){
 
         {/* Humberger */}
         
-        <div className="relative  sm:hidden active:transform active:scale-95 active:transition-transform active:duration-200 cursor-pointer opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
+        <div className="relative  sm:hidden active:transform active:scale-95 active:transition-transform active:duration-200 cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">
           <Image
             src={'/oval.svg'}
             alt="facebook logo"
