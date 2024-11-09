@@ -8,7 +8,7 @@ export default function HomeDiscover(){
     
     <>
 
-      <div className="flex flex-col my-[5em] lg:my-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col mx-[2.75em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
 
 
 
@@ -20,13 +20,13 @@ export default function HomeDiscover(){
               alt="oval logo"
               width={570}
               height={560}
-              className=" min-w-[3em]"
+              className=""
             />
             <Image
-              src={'/path.svg'}
+              src={'/home-kitchen-mask.svg'}
               alt="path logo"
-              width={15}
-              height={16}
+              width={170}
+              height={170}
               className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             />
           </div>
