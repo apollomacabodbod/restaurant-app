@@ -12,7 +12,8 @@ export default function HomeDiscover(){
 
 
 
-        <div className="sm:flex sm:items-center sm:justify-between">
+        <div className="sm:flex sm:items-center gap-[8.125em] border border-[#50B498] green">
+
 
           <div className="relative ">
             <Image
@@ -44,25 +45,32 @@ export default function HomeDiscover(){
 
           </div>
 
+         
+
 
           <div className="flex flex-col">
 
-            <p>Discover</p>
+            <p className="font-roboto text-[1.5em] not-italic font-light leading-[2em] text-[#333]">Discover</p>
+            <p>Our History</p>
+
+            <p className="w-[29.375em]">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+
+            <button>Read more</button>
 
           </div>
 
 
 
-
         </div>
-      
 
+
+      </div>
+      
 
 
         
 
 
-      </div>
     
     
     
