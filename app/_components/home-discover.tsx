@@ -14,7 +14,7 @@ export default function HomeDiscover(){
 
         <div className="sm:flex sm:items-center sm:justify-between">
 
-          <div className="relative flex flex-col ">
+          <div className="relative ">
             <Image
               src={'/home-kitchen.svg'}
               alt="oval logo"
@@ -27,7 +27,7 @@ export default function HomeDiscover(){
               alt="path logo"
               width={170}
               height={170}
-              className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              className="absolute top-[12em] sm:top-[25em] md:top-[29em] left-[2em] sm:left-[2em] -translate-x-1/2 -translate-y-1/2   border border-[#50B498] green transition-all duration-1000 ease-in-out"
             />
           </div>
 
