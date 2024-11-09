@@ -44,18 +44,30 @@ export default function HomeHeader(){
 
       <div className="flex items-center justify-between transition-all duration-1000 ease-in-out">
 
-        <Image src={'/logo.svg'} alt="logo" width={101} height={0} className="cursor-pointer active:transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out "></Image>
+        <Image 
+          src={'/logo.svg'} 
+          alt="logo" 
+          width={101} 
+          height={0} 
+          className="
+    cursor-pointer 
+    opacity-70 hover:opacity-100 
+    transition-opacity duration-1000 ease-in-out
+    active:scale-95 active:transition-transform active:duration-200 active:ease-out
+  "
+        />
+
 
         <div className="flex-col  sm:flex hidden  ">
 
           <div className="flex items-center  sm:gap-[0.6em] md:gap-[2em]  transition-all duration-1000 ease-in-out ">
 
 
-            <Link href={"#"} className=" font-roboto  sm:text-[1rem] md:text-[1.25rem]  leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  opacity-70 hover:opacity-100 focus:opacity-100  transition-all duration-1000 ease-in-out">About us </Link>
-            <Link href={"#"} className=" font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
-            <Link href={"#"} className="font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
-            <Link href={"#"} className=" font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
-            <Link href={"#"} className=" font-roboto sm:text-[1rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+            <Link href={"#"} className=" font-roboto  sm:text-[1.10rem] md:text-[1.25rem]  leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  opacity-70 hover:opacity-100 focus:opacity-100  transition-all duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
 
           </div>
 
@@ -68,7 +80,7 @@ export default function HomeHeader(){
           <div className="flex items-center sm:gap-[0.4em] transition-all duration-1000 ease-in-out">
     
             {/* Container for overlayed images */}
-            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
+            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
@@ -86,7 +98,7 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
+            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
@@ -104,7 +116,7 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
+            <div className="relative cursor-pointer transform active:scale-95 active:transition-transform active:duration-200 opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">
               <Image
                 src={'/oval.svg'}
                 alt="facebook logo"
@@ -144,15 +156,18 @@ export default function HomeHeader(){
               height={0}
               alt="menu icon"
               onClick={toggleSidebar} // Toggle sidebar on click
-              className="lg:hidden w-full bg-cover bg-center bg-no-repeat bg-fixed max-w-[2em] cursor-pointer self-end  transform active:scale-95 transition-transform duration-200"
+              className="lg:hidden w-full bg-cover bg-center bg-no-repeat bg-fixed max-w-[2em]  self-end  active:transform active:scale-95 active:transition-transform active:duration-200 cursor-pointer opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out"
             />
 
             
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">About us </Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
-            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] border-b-2  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+
+
+            <Link href={"#"} className=" font-roboto  text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  opacity-70 hover:opacity-100 focus:opacity-100  transition-all duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+
 
             
           </div>
@@ -162,13 +177,13 @@ export default function HomeHeader(){
 
         {/* Humberger */}
         
-        <div className="relative  sm:hidden transform active:scale-95 transition-transform duration-200 cursor-pointer">
+        <div className="relative  sm:hidden active:transform active:scale-95 active:transition-transform active:duration-200 cursor-pointer opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out">
           <Image
             src={'/oval.svg'}
             alt="facebook logo"
             width={48}
             height={48}
-            className="border border-[#50B498] min-w-[3em] "
+            className=" min-w-[3em] "
             onClick={toggleSidebar} // Toggle sidebar on click
           />
           <Image
@@ -176,7 +191,7 @@ export default function HomeHeader(){
             alt="facebook logo"
             width={20}
             height={16}
-            className="border border-[#50B498] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             onClick={toggleSidebar} // Toggle sidebar on click
           />
         </div>

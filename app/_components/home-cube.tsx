@@ -49,8 +49,8 @@ export default function HomeCube() {
 
             <div className="flex items-center  gap-[1.875em] mt-[2.5em]">
 
-              <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[1.2em] sm:px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] transform active:scale-95 transition-transform duration-200 ">Book a table</button>
-              <button className="font-roboto py-[0.75em]  border-2 border-[#7a7b7c] text-[#FFFFFF] px-[1.3em] sm:px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] transform active:scale-95 transition-transform duration-200">See menu</button>
+              <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[1.2em] sm:px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out ">Book a table</button>
+              <button className="font-roboto py-[0.75em]  border-2 border-[#7a7b7c] text-[#FFFFFF] px-[1.3em] sm:px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">See menu</button>
 
             </div>
 
