@@ -63,11 +63,11 @@ export default function HomeHeader(){
           <div className="flex items-center  sm:gap-[0.6em] md:gap-[2em]  transition-all duration-1000 ease-in-out ">
 
 
-            <Link href={"#"} className=" font-roboto  sm:text-[1.10rem] md:text-[1.25rem]  leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  opacity-70 hover:opacity-100 focus:opacity-100  transition-all duration-1000 ease-in-out">About us </Link>
-            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
-            <Link href={"#"} className="font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
-            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
-            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+            <Link href={"#"} className=" font-roboto  sm:text-[1.10rem] md:text-[1.25rem]  leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  opacity-70 hover:opacity-100 focus:opacity-100  transition-opacity duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto sm:text-[1.10rem] md:text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out">Contacts </Link>
 
           </div>
 
@@ -162,11 +162,14 @@ export default function HomeHeader(){
             
 
 
-            <Link href={"#"} className=" font-roboto  text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  opacity-70 hover:opacity-100 focus:opacity-100  transition-all duration-1000 ease-in-out">About us </Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Menu</Link>
-            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> Events</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out"> News</Link>
-            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-all duration-1000 ease-in-out">Contacts </Link>
+
+
+
+            <Link href={"#"} className=" font-roboto  text-[1.25rem]  leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF]  opacity-70 hover:opacity-100 focus:opacity-100  transition-opacity duration-1000 ease-in-out">About us </Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out"> Menu</Link>
+            <Link href={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out"> Events</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100   hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out"> News</Link>
+            <Link href={"#"} className=" font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap not-italic text-[#FFF] opacity-70 hover:opacity-100 focus:opacity-100  hover:border-[#FFF] border-transparent transition-opacity duration-1000 ease-in-out">Contacts </Link>
 
 
             
