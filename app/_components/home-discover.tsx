@@ -8,21 +8,26 @@ export default function HomeDiscover(){
     
     <>
 
-      <div className="flex flex-col mx-[2.75em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col mx-[1em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
 
 
 
-        <div className="sm:flex sm:items-center gap-[8.125em] border border-[#50B498] green">
+        <div className="md:flex md:items-center md:justify-between   gap-[3.125em] sm:gap-[2.7em] md:gap-[3.125em] lg:gap-[7.125em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
 
 
           <div className="relative ">
-            <Image
-              src={'/home-kitchen.svg'}
-              alt="oval logo"
-              width={570}
-              height={560}
-              className=""
-            />
+
+            <div className="flex items-center justify-center">
+              <Image
+                src={'/home-kitchen.svg'}
+                alt="oval logo"
+                width={570}
+                height={570}
+                className="min-w-[16em] sm:w-[35.625em]"
+              />
+
+            </div>
+           
             <Image
               src={'/home-kitchen-mask.svg'}
               alt="path logo"
@@ -50,10 +55,10 @@ export default function HomeDiscover(){
 
           <div className="flex flex-col border border-[#50B498] green">
 
-            <p className="border border-[#50B498] green font-roboto text-[1.5rem] not-italic font-light leading-[2em] text-[#333] ">Discover</p>
-            <p className="border border-[#50B498] green font-serif text-[#333] text-[3.5rem] not-italic font-bold leading-[em]">Our History</p>
+            <p className="border border-[#50B498] green font-roboto text-[1.5rem] not-italic font-light  text-[#333] ">Discover</p>
+            <p className="border border-[#50B498] green font-serif text-[#333] text-[3.5rem] not-italic font-bold whitespace-nowrap">Our History</p>
 
-            <p className="w-[29.375em] border border-[#50B498] green">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+            <p className="border border-[#50B498] green font-roboto text-[1.25rem] not-italic font-light  md:w-[21.375em] transition-all duration-1000 ease-in-out">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
 
             <button className="border border-[#50B498] green">Read more</button>
 

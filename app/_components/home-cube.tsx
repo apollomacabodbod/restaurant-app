@@ -3,23 +3,23 @@ import Image from "next/image";
 export default function HomeCube() {
   return (
     <>
-      <div className="flex flex-col  mt-[2.6875em] sm:mt-[9em] xl:mt-[3.8125em] lg:mt-[5.8125em]  mx-[1em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
+      <div className="flex flex-col  mt-[3.6875em]   lg:mt-[5.8125em]  mx-[1em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
               
 
-        <div className="sm:flex sm:items-center sm:justify-between transition-all duration-1000 ease-in-out">
+        <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out">
 
 
           <div className="flex flex-col  ">
 
             <div className="relative">
 
-              <p className="text-[#FFF] dark:text-[#FFF] text-[3.5em]  sm:text-[3.1rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap  font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out opacity-70  ">
+              <p className="text-[#FFF] dark:text-[#FFF] text-[3.5rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap  font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out opacity-70  ">
                Welcome 
-                <br className="sm:hidden transition-all duration-1000 ease-in-out"/> 
+                <br className="lg:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
               </p>
 
-              <p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5em] sm:text-[3.1rem]  md:text-[4rem]  lg:text-[4rem] xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
+              <p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5rem]  lg:text-[4rem] xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
                Restaurant
               </p>
 
@@ -43,7 +43,7 @@ export default function HomeCube() {
             </div>
 
 
-            <p className="text-[1.5rem] font-roboto text-[#FFF] not-italic font-light leading-[2em] mt-[1.6875em] opacity-70 ">Everyday 8:00 am - 23:00 pm</p>
+            <p className="text-[1.5rem]  font-roboto text-[#FFF] not-italic font-light leading-[2em] mt-[1.6875em] opacity-70 ">Everyday 8:00 am - 23:00 pm</p>
 
 
 
@@ -60,7 +60,7 @@ export default function HomeCube() {
 
 
 
-          <div className="flex items-center justify-center mt-[1.12em] sm:mt-[0em]">
+          <div className="flex items-center justify-center mt-[1.12em] lg:mt-[0em]">
 
             <Image 
               src={'/rice.svg'} 
