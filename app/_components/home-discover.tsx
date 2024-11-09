@@ -48,14 +48,14 @@ export default function HomeDiscover(){
          
 
 
-          <div className="flex flex-col">
+          <div className="flex flex-col border border-[#50B498] green">
 
-            <p className="font-roboto text-[1.5em] not-italic font-light leading-[2em] text-[#333]">Discover</p>
-            <p>Our History</p>
+            <p className="border border-[#50B498] green font-roboto text-[1.5rem] not-italic font-light leading-[2em] text-[#333] ">Discover</p>
+            <p className="border border-[#50B498] green font-serif text-[#333] text-[3.5rem] not-italic font-bold leading-[em]">Our History</p>
 
-            <p className="w-[29.375em]">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+            <p className="w-[29.375em] border border-[#50B498] green">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
 
-            <button>Read more</button>
+            <button className="border border-[#50B498] green">Read more</button>
 
           </div>
 
