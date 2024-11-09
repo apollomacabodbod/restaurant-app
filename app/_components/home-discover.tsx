@@ -12,7 +12,7 @@ export default function HomeDiscover(){
 
 
 
-        <div className="md:flex md:items-center md:justify-between   gap-[3.125em] sm:gap-[2.7em] md:gap-[3.125em] lg:gap-[7.125em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
+        <div className="lg:flex lg:items-center lg:justify-between   gap-[3.125em] sm:gap-[2.7em] md:gap-[3.125em] lg:gap-[7.125em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
 
 
           <div className="relative ">
@@ -23,7 +23,7 @@ export default function HomeDiscover(){
                 alt="oval logo"
                 width={570}
                 height={570}
-                className="min-w-[16em] sm:w-[35.625em]"
+                className="rounded-[0.2em]"
               />
 
             </div>
@@ -53,14 +53,20 @@ export default function HomeDiscover(){
          
 
 
-          <div className="flex flex-col border border-[#50B498] green">
+          <div className="flex flex-col border border-[#50B498] green mt-[3.9375em] lg:mt-[0em]">
 
             <p className="border border-[#50B498] green font-roboto text-[1.5rem] not-italic font-light  text-[#333] ">Discover</p>
-            <p className="border border-[#50B498] green font-serif text-[#333] text-[3.5rem] not-italic font-bold whitespace-nowrap">Our History</p>
+            <p className="border border-[#50B498] green font-serif text-[#333] text-[3.5rem] not-italic font-bold whitespace-nowrap mt-[0.1875em]">Our History</p>
 
-            <p className="border border-[#50B498] green font-roboto text-[1.25rem] not-italic font-light  md:w-[21.375em] transition-all duration-1000 ease-in-out">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+            <p className="border border-[#50B498] green font-roboto text-[1.25rem] not-italic font-light   transition-all duration-1000 ease-in-out  lg:w-[16em] xl:w-[24em] mt-[0.875em]">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
 
-            <button className="border border-[#50B498] green">Read more</button>
+
+            <div className="flex items-center">
+
+              <button className="border border-[#50B498] green text-[#FFF] text-[1.125rem] font-roboto not-italic font-normal py-[0.75em] px-[2.59375em] bg-[#6327EB] rounded-[0.1875em] mt-[1.4375em]">Read more</button>
+
+            </div>
+           
 
           </div>
 
