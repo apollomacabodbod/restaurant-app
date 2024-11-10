@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 
 
-      <div className="flex flex-col min-h-screen bg-white dark:bg-slate-600">
+      <div className="flex flex-col min-h-screen bg-white">
 
         <HomeDiscover />
 
