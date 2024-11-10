@@ -30,7 +30,7 @@ export default function HomeDiscover(){
            
           
 
-            <div className="absolute top-[12em] lg:top-[14em] xl:top-[20em] left-[2.5em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2    transition-all duration-1000 ease-in-out object-cover">
+            <div className="absolute top-[12em] lg:top-[14em] xl:top-[20em] left-[2.5em] sm:left-[2.9em] md:left-[10em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2    transition-all duration-1000 ease-in-out object-cover">
           
               <div className="relative ">
 
