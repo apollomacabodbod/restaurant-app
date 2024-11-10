@@ -8,7 +8,7 @@ export default function HomeDiscover(){
     
     <>
 
-      <div className="flex flex-col mx-[1em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col mx-[2.75em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out">
 
 
 
@@ -17,7 +17,7 @@ export default function HomeDiscover(){
 
           <div className="relative ">
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center ">
               <Image
                 src={'/home-kitchen.svg'}
                 alt="oval logo"
@@ -33,7 +33,7 @@ export default function HomeDiscover(){
               alt="path logo"
               width={170}
               height={170}
-              className="absolute top-[12em] left-[2em] sm:top-[25em] md:top-[29em]  sm:left-[2em] -translate-x-1/2 -translate-y-1/2   border border-[#50B498] green transition-all duration-1000 ease-in-out"
+              className="absolute top-[12em] lg:top-[14em] xl:top-[20em] left-[1.5em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2   border border-[#50B498] green transition-all duration-1000 ease-in-out"
             />
 
             <Image
@@ -56,7 +56,7 @@ export default function HomeDiscover(){
           <div className="flex flex-col border border-[#50B498] green mt-[3.9375em] lg:mt-[0em]">
 
             <p className="border border-[#50B498] green font-roboto text-[1.5rem] not-italic font-light  text-[#333] ">Discover</p>
-            <p className="border border-[#50B498] green font-serif text-[#333] text-[3.5rem] not-italic font-bold whitespace-nowrap mt-[0.1875em]">Our History</p>
+            <p className="border border-[#50B498] green font-serif text-[#333]  text-[2.5em]  lg:text-[3.5rem] not-italic font-bold whitespace-nowrap mt-[0.1875em]">Our History</p>
 
             <p className="border border-[#50B498] green font-roboto text-[1.25rem] not-italic font-light   transition-all duration-1000 ease-in-out  lg:w-[16em] xl:w-[24em] mt-[0.875em]">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
 
