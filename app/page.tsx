@@ -10,7 +10,6 @@ export default function Home() {
 
     <>
       <div className="relative flex flex-col min-h-screen bg-center bg-cover bg-no-repeat bg-fixed" style={{ backgroundImage: "url('/hero-background.svg')" }}>
-        {/* Color Overlay */}
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-80"></div>
 
