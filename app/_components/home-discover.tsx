@@ -8,7 +8,7 @@ export default function HomeDiscover(){
     
     <>
 
-      <div className="flex flex-col mx-[2.75em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em]   transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col mx-[1em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em]   transition-all duration-1000 ease-in-out">
 
 
 
@@ -23,19 +23,19 @@ export default function HomeDiscover(){
                 alt="oval logo"
                 width={570}
                 height={570}
-                className="rounded-[0.5em] object-cover "
+                className="rounded-[0.5em] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] "
               />
 
             </div>
            
           
 
-            <div className="absolute top-[10em] lg:top-[14em] xl:top-[20em] left-[1.5em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2    transition-all duration-1000 ease-in-out object-cover">
+            <div className="absolute top-[13em] lg:top-[14em] xl:top-[20em] left-[3.1em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2    transition-all duration-1000 ease-in-out object-cover">
           
               <div className="relative ">
 
 
-                <div className="flex flex-col bg-[#BBA285] w-[120px] h-[120px] rounded-[0.5em]"></div>
+                <div className="flex flex-col bg-[#BBA285] w-[120px] h-[120px] rounded-[0.5em] "></div>
 
 
                 <Image
