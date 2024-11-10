@@ -23,7 +23,7 @@ export default function HomeDiscover(){
                 alt="oval logo"
                 width={570}
                 height={570}
-                className="rounded-[0.2em]"
+                className="rounded-[0.2em] object-cover"
               />
 
             </div>
@@ -33,7 +33,7 @@ export default function HomeDiscover(){
               alt="path logo"
               width={170}
               height={170}
-              className="absolute top-[12em] lg:top-[14em] xl:top-[20em] left-[1.5em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2   border border-[#50B498] green transition-all duration-1000 ease-in-out"
+              className="absolute top-[12em] lg:top-[14em] xl:top-[20em] left-[1.5em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2   border border-[#50B498] green transition-all duration-1000 ease-in-out object-cover"
             />
 
             <Image
@@ -42,7 +42,7 @@ export default function HomeDiscover(){
               alt="home-combine-shapes icon"
               width={176}
               height={176}
-              className="absolute top-[8em] left-[13em]  sm:top-[10em] sm:left-[30.83em] md:left-[32.83em] -translate-x-1/2 -translate-y-1/2 border border-[#50B498] green transition-all duration-1000 ease-in-out"
+              className="absolute top-[8em] left-[12.7em] sm:left-[21em] md:left-[37em]  lg:left-[17em]  xl:left-[23em] -translate-x-1/2 -translate-y-1/2 border border-[#50B498] green transition-all duration-1000 ease-in-out object-cover"
             
             >
             </Image>
