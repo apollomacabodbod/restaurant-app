@@ -34,13 +34,6 @@ export default function HomeDiscover(){
           
               <div className="relative ">
 
-                {/* <Image
-            src={'/home-kitchen-mask.svg'}
-            alt="path logo"
-            width={170}
-            height={170}
-            className=""
-            /> */}
 
                 <div className="flex flex-col bg-[#BBA285] w-[120px] h-[120px] rounded-[0.5em]"></div>
 
