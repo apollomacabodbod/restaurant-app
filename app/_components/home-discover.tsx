@@ -8,7 +8,7 @@ export default function HomeDiscover(){
     
     <>
 
-      <div className="flex flex-col mx-[1em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em]   transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col mx-[2em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em]   transition-all duration-1000 ease-in-out">
 
 
 
@@ -30,7 +30,7 @@ export default function HomeDiscover(){
            
           
 
-            <div className="absolute top-[13em] lg:top-[14em] xl:top-[20em] left-[3.1em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2    transition-all duration-1000 ease-in-out object-cover">
+            <div className="absolute top-[12em] lg:top-[14em] xl:top-[20em] left-[2.5em] sm:left-[2em] md:left-[9em] md:hidden lg:block  lg:left-[2em]   -translate-x-1/2 -translate-y-1/2    transition-all duration-1000 ease-in-out object-cover">
           
               <div className="relative ">
 

@@ -40,7 +40,7 @@ export default function HomeHeader(){
   return (<>
 
 
-    <div className="flex flex-col  mt-[1em] mx-[1em] lg:mx-[8.4375em] transition-all duration-1000 ease-in-out ">
+    <div className="flex flex-col  mt-[1em] mx-[2em] lg:mx-[8.4375em] transition-all duration-1000 ease-in-out ">
 
       <div className="flex items-center justify-between transition-all duration-1000 ease-in-out">
 

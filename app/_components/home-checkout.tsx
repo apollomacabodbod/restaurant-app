@@ -11,7 +11,7 @@ export default function HomeCheckout(){
     <>
 
 
-      <div className="flex flex-col border border-[#50B498] green  lg:my-[10em] mx-[1em] lg:mx-[8.4375em] transition-all duration-1000 ease-in-out  ">
+      <div className="flex flex-col border border-[#50B498] green  lg:my-[10em] mx-[2em] lg:mx-[8.4375em] transition-all duration-1000 ease-in-out  ">
 
 
 
@@ -29,7 +29,7 @@ export default function HomeCheckout(){
 
               <p className="border border-[#50B498] green text-[#333] font-serif  text-[2.5rem] xl:text-[3.5rem] not-italic font-bold whitespace-nowrap">Seasonal Offers</p>
 
-              <Image src={'/seasonal-shape.svg'} width={176} height={176} alt="seasional shape icon" className="absolute top-[1.5em] xl:top-[1em] left-[14em] xl:left-[21em] -translate-x-1/2 -translate-y-1/2 border border-[#50B498] green "/>
+              <Image src={'/seasonal-shape.svg'} width={176} height={176} alt="seasional shape icon" className="absolute top-[1.5em] xl:top-[1em] left-[13em] xl:left-[21em] -translate-x-1/2 -translate-y-1/2 border border-[#50B498] green "/>
 
             </div>
 
