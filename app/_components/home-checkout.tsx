@@ -15,7 +15,7 @@ export default function HomeCheckout(){
 
 
 
-        <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out gap-[3.875em]">
+        <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out lg:gap-[3em] xl:gap-[3.875em]">
 
           <div className="flex flex-col">
 
@@ -43,7 +43,7 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal ">Served with soy sauce, wasabi, pickled ginger and chopsticks</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">Served with soy sauce, wasabi, pickled ginger and chopsticks</p>
      
      
 
@@ -57,7 +57,7 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal ">Snow crab, avocado, cucumber, tobiko, Japanese mayonnaise</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">Snow crab, avocado, cucumber, tobiko, Japanese mayonnaise</p>
      
 
 
@@ -72,7 +72,7 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal ">A Latte is a coffee drink made with espresso and steamed milk</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">A Latte is a coffee drink made with espresso and steamed milk</p>
      
 
 
@@ -86,7 +86,7 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal ">Candied salmon, basil potato puree, baby kale marsala</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">Candied salmon, basil potato puree, baby kale marsala</p>
 
           </div>
 
