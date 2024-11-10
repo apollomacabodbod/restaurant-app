@@ -90,7 +90,7 @@ export default function HomeDiscover(){
             <p className=" font-roboto text-[1.5rem] not-italic font-light  text-[#333] ">Discover</p>
             <p className=" font-serif text-[#333]  text-[2.5em]  lg:text-[3.5rem] not-italic font-bold whitespace-nowrap">Our History</p>
 
-            <p className=" font-roboto text-[1.25rem] not-italic font-light   transition-all duration-1000 ease-in-out  lg:w-[16em] xl:w-[24em] mt-[0.875em] transition-all duration-1000 ease-in-out">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+            <p className=" font-roboto text-[1.25rem] not-italic font-light   transition-all duration-1000 ease-in-out  lg:w-[16em] xl:w-[24em] mt-[0.875em] ">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
 
 
             <div className="flex items-center">
