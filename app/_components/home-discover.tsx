@@ -63,7 +63,7 @@ export default function HomeDiscover(){
 
             <div className="flex items-center">
 
-              <button className="border border-[#50B498] green text-[#FFF] text-[1.125rem] font-roboto not-italic font-normal py-[0.75em] px-[2.59375em] bg-[#6327EB] rounded-[0.1875em] mt-[1.4375em]">Read more</button>
+              <button className="border border-[#50B498] green text-[#FFF] text-[1.125rem] font-roboto not-italic font-normal py-[0.75em] px-[2.59375em] bg-[#6327EB] rounded-[0.1875em] mt-[1.4375em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">Read more</button>
 
             </div>
            
