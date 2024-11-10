@@ -15,7 +15,7 @@ export default function HomeCheckout(){
 
 
 
-        <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out lg:gap-[3em] xl:gap-[3.875em]">
+        <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out lg:gap-[3em] xl:gap-[9em]">
 
           <div className="flex flex-col">
 
