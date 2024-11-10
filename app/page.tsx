@@ -32,6 +32,11 @@ export default function Home() {
         <HomeDiscover />
 
       </div>
+
+      <div className="flex flex-col min-h-screen bg-white">
+
+        
+      </div>
     
     </>
    
