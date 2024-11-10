@@ -15,7 +15,7 @@ export default function HomeCheckout(){
 
 
 
-        <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out lg:gap-[3em] xl:gap-[9em]">
+        <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out lg:gap-[3em] xl:gap-[10em]">
 
           <div className="flex flex-col">
 
@@ -43,7 +43,7 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">Served with soy sauce, wasabi, pickled ginger and chopsticks</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal lg:whitespace-nowrap">Served with soy sauce, wasabi, pickled ginger and chopsticks</p>
      
      
 
@@ -57,7 +57,7 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">Snow crab, avocado, cucumber, tobiko, Japanese mayonnaise</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal lg:whitespace-nowrap">Snow crab, avocado, cucumber, tobiko, Japanese mayonnaise</p>
      
 
 
@@ -72,7 +72,7 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">A Latte is a coffee drink made with espresso and steamed milk</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal lg:whitespace-nowrap">A Latte is a coffee drink made with espresso and steamed milk</p>
      
 
 
@@ -86,21 +86,24 @@ export default function HomeCheckout(){
             </div>
 
 
-            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal whitespace-nowrap">Candied salmon, basil potato puree, baby kale marsala</p>
+            <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[0.875rem] not-italic font-normal lg:whitespace-nowrap">Candied salmon, basil potato puree, baby kale marsala</p>
 
           </div>
 
 
-
           <div className="flex flex-col">
-
+        
+        
             <div className="flex items-center justify-center my-[4.6875em]">
     
               <Image src={'/home-checkout-salad.svg'} alt="" width={570} height={570} className="rounded-[0.5em] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"></Image>
 
             </div>
 
+            
           </div>
+
+          
 
 
 
