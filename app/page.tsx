@@ -3,6 +3,7 @@ import HomeHeader from "./_components/home-header";
 import HomeCube from "./_components/home-cube";
 import HomeOval from "./_components/home-oval";
 import HomeDiscover from "./_components/home-discover";
+import HomeCheckout from "./_components/home-checkout";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
 
       <div className="flex flex-col min-h-screen bg-white">
 
-        
+        <HomeCheckout/>
       </div>
     
     </>
