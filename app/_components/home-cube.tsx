@@ -32,7 +32,7 @@ export default function HomeCube() {
                   width={176}
                   height={176}
                   // className="border border-[#50B498] absolute top-[2em] left-[16em] md:left-[22em] -translate-x-1/2 -translate-y-1/2 leading-tight tracking-tight"
-                  className=" absolute top-[3.5em]  sm:top-[1.9em]  xl:top-[2.4em]   left-[14.5em]   sm:left-[13.5em] md:left-[16em]  lg:left-[16em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
+                  className=" absolute top-[3.5em]    lg:top-[2.2em] xl:top-[2.4em]  left-[14.5em]     lg:left-[22em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
                 />
 
 
