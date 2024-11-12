@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HomeCube() {
   return (
     <>
-      <div className="flex flex-col  mt-[3.6875em]   lg:mt-[3.8125em]  mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
+      <div className="flex flex-col  mt-[3.6875em]   lg:mt-[2em]  mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
               
 
         <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out">
@@ -67,7 +67,7 @@ export default function HomeCube() {
               alt="friend rice icon"
               width={555} 
               height={555}
-              className="w-[26.22275em] sm:w-[34.6875em] transition-all duration-1000 ease-in-out"
+              className=" transition-all duration-1000 ease-in-out"
 
             />
 
