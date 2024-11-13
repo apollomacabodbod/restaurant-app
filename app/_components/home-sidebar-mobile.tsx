@@ -58,7 +58,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
   return (
     <div
       ref={sidebarRef} 
-      className={`lg:hidden fixed top-0 right-0 w-[75%] max-w-[18em] min-h-screen z-40 bg-center bg-cover bg-no-repeat bg-fixed bg-[url('/hero-background.svg')] transition-transform duration-300 ${
+      className={`lg:hidden fixed top-0 right-0 w-[75%] max-w-[18em] min-h-screen z-40 bg-center bg-cover bg-no-repeat bg-fixed bg-[url('/hero-background.svg')] transition-transform duration-500 ${
         sidebarOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
