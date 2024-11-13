@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HomeCube() {
   return (
     <>
-      <div className="flex flex-col  mt-[3.6875em]   lg:mt-[2em]  mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
+      <div className="flex flex-col  mt-[8em]   lg:mt-[6em]  mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
               
 
         <div className="lg:flex lg:items-center lg:justify-between transition-all duration-1000 ease-in-out">
@@ -13,13 +13,13 @@ export default function HomeCube() {
 
             <div className="relative">
 
-              <p className="text-[#FFF] dark:text-[#FFF] text-[3.5rem]  lg:text-[4rem] xl:text-[4.5rem]  whitespace-nowrap  font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out opacity-70  ">
+              <p className="text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]  whitespace-nowrap  font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out opacity-70  ">
                Welcome 
                 <br className="lg:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
               </p>
 
-              <p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5rem]  lg:text-[4rem] xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
+              <p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
                Restaurant
               </p>
 
@@ -32,7 +32,7 @@ export default function HomeCube() {
                   width={176}
                   height={176}
                   // className="border border-[#50B498] absolute top-[2em] left-[16em] md:left-[22em] -translate-x-1/2 -translate-y-1/2 leading-tight tracking-tight"
-                  className=" absolute top-[3.5em]    lg:top-[2.2em] xl:top-[2.4em]  left-[14.5em]     lg:left-[22em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
+                  className=" absolute top-[3.5em]    lg:top-[4.5em] xl:top-[2.4em]  left-[14.5em]     lg:left-[19em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
                 />
 
 
