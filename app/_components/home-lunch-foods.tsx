@@ -34,7 +34,7 @@ export default function HomeLunchFoods(){
 
         <div key={item.id} className="flex flex-col  ">
 
-          <div className="lg:flex lg:items-center lg:gap-[1.25em] ">
+          <div className="lg:flex lg:items-center lg:justify-center lg:gap-[1.25em] ">
 
 
             <div className="flex flex-col "> 
