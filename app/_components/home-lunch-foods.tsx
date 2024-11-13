@@ -35,7 +35,7 @@ export default function HomeLunchFoods(){
   return (<>
 
 
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2 mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out">
 
       {homeFoods.map(item => (
 
@@ -54,6 +54,14 @@ export default function HomeLunchFoods(){
 
 
               </div>
+
+            </div>
+
+
+
+            <div className="flex flex-col">
+
+
 
             </div>
 
