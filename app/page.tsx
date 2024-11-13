@@ -41,7 +41,7 @@ export default function Home() {
       </div>
 
 
-      <div className="flex flex-col min-h-screen bg-white">
+      <div className="flex flex-col min-h-screen bg-[#F9F7F2]">
 
         <HomeLunch/>
         <HomeLunchFoods/>
