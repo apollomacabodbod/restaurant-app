@@ -4,16 +4,9 @@
 import Image from "next/image"
 
 import { useState } from "react"
+import { foods } from "../_types/home-foods-types"
 
 
-type foods = {
-
-    id: number;
-    name: string;
-    description: string;
-    image: string;
-    price: number;
-}
 
 export default function HomeLunchFoods(){
 
