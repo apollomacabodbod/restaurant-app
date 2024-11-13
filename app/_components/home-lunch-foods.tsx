@@ -20,11 +20,11 @@ export default function HomeLunchFoods(){
   const [homeFoods, setHomeFoods] = useState<foods[]>([  
         
     { id: 1 , name: "Huitlacoche Tamle", description: "Served pickled ginger and chopsticks" , image: "/rice.svg" , price: 14.00},
-    { id: 2 , name: "Huitlacoche Tamle", description: "Served pickled ginger and chopsticks" , image: "/rice.svg" , price: 14.00},
-    { id: 3 , name: "Huitlacoche Tamle", description: "Served pickled ginger and chopsticks" , image: "/rice.svg" , price: 14.00},
-    { id: 4 , name: "Huitlacoche Tamle", description: "Served pickled ginger and chopsticks" , image: "/rice.svg" , price: 14.00},
-    { id: 5 , name: "Huitlacoche Tamle", description: "Served pickled ginger and chopsticks" , image: "/rice.svg" , price: 14.00},
-    { id: 6 , name: "Huitlacoche Tamle", description: "Served pickled ginger and chopsticks" , image: "/rice.svg" , price: 14.00}
+    { id: 2 , name: "Mediterranean Salad", description: "Soy sauce, wasabi, pickled ginger and chopsticks" , image: "/rice.svg" , price: 17.00},
+    { id: 3 , name: "Creole Tempeh", description: "Served with soy sauce, wasabi, pickled  chopsticks" , image: "/rice.svg" , price: 19.00},
+    { id: 4 , name: "Warm Kipfler Potato", description: "Sauce, wasabi, pickled ginger and chopsticks" , image: "/rice.svg" , price: 22.00},
+    { id: 5 , name: "Polenta Nera Cake", description: "Served with soy sauce, wasabi, pickled ginger" , image: "/rice.svg" , price: 13.00},
+    { id: 6 , name: "Warm Kipfler Potato", description: "Wasabi, pickled ginger and chopsticks" , image: "/rice.svg" , price: 24.00}
     
   ])
 
@@ -35,21 +35,21 @@ export default function HomeLunchFoods(){
   return (<>
 
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 my-[2.9375em] mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out border border-[#50B490] gap-[1em] lg:gap-[0.5em]">
+    <div className="grid grid-cols-1 lg:grid-cols-2 mt-[1em] mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out  gap-[1em] lg:gap-[0.5em]">
 
       {homeFoods.map(item => (
 
-        <div key={item.id} className="flex flex-col border border-[#50B490] ">
+        <div key={item.id} className="flex flex-col  ">
 
           <div className="lg:flex lg:items-center lg:gap-[1.25em] ">
 
 
-            <div className="flex flex-col border border-[#50B490] green"> 
+            <div className="flex flex-col "> 
 
 
               <div className="flex items-center">
 
-                <Image src={item.image} width={136} height={136} alt="" className=""></Image>
+                <Image src={item.image} width={136} height={136} alt="" className="min-w-[8.5em]"></Image>
 
               </div>
 
@@ -61,17 +61,17 @@ export default function HomeLunchFoods(){
 
 
 
-            <div className="flex flex-col border border-[#50B490] green">
+            <div className="flex flex-col ">
 
-              <div className="flex items-center justify-between  lg:gap-[7em]">
+              <div className="flex items-center justify-between   xl:gap-[7em]">
                    
 
-                <p className="border border-[#50B490] green text-[#333] font-roboto text-[1.25rem] not-italic font-light ">{item.name}</p>
-                <p className="border border-[#50B490] green font-roboto text-[1.25rem] not-italic font-light text-[rgba(51,51,51,0.50)] ">{`$${item.price}`}</p>
+                <p className=" text-[#333] font-roboto text-[1.25rem] not-italic font-light ">{item.name}</p>
+                <p className=" font-roboto text-[1.25rem] not-italic font-light text-[rgba(51,51,51,0.50)] ">{`$${item.price}`}</p>
         
               </div>
 
-              <p className="border border-[#50B490] green font-roboto text-[0.875rem] text-[rgba(51,51,51,0.50)] font-normal">{`${item.description}`}</p>
+              <p className=" font-roboto text-[0.875rem] text-[rgba(51,51,51,0.50)] font-normal">{`${item.description}`}</p>
 
 
 
