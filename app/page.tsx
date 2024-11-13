@@ -7,6 +7,7 @@ import HomeCheckout from "./_components/home-checkout";
 import HomeLunch from "./_components/home-lunch";
 import HomeLunchFoods from "./_components/home-lunch-foods";
 import HomeFullmenuButton from "./_components/home-fullmenu-button";
+import HomeUpcomingEvents from "./_components/home-upcoming-events";
 
 export default function Home() {
   return (
@@ -49,6 +50,12 @@ export default function Home() {
         <HomeFullmenuButton/>
 
 
+
+      </div>
+
+      <div className="flex flex-col min-h-screen bg-[#333333]">
+
+        <HomeUpcomingEvents/>
 
       </div>
     
