@@ -35,7 +35,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [sidebarOpen]);
+  }, [sidebarOpen,setSidebarOpen]);
 
   // Close sidebar on screen resize (e.g., when the screen is maximized)
   useEffect(() => {
