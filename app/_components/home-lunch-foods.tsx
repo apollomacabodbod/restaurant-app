@@ -35,7 +35,7 @@ export default function HomeLunchFoods(){
   return (<>
 
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out border border-[#50B490] gap-[1em] lg:gap-[0.5em]">
+    <div className="grid grid-cols-1 lg:grid-cols-2 my-[2.9375em] mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out border border-[#50B490] gap-[1em] lg:gap-[0.5em]">
 
       {homeFoods.map(item => (
 

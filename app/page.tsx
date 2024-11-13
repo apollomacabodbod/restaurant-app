@@ -6,6 +6,7 @@ import HomeDiscover from "./_components/home-discover";
 import HomeCheckout from "./_components/home-checkout";
 import HomeLunch from "./_components/home-lunch";
 import HomeLunchFoods from "./_components/home-lunch-foods";
+import HomeFullmenuButton from "./_components/home-fullmenu-button";
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
 
         <HomeLunch/>
         <HomeLunchFoods/>
+        <HomeFullmenuButton/>
 
 
 
