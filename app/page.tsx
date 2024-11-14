@@ -9,6 +9,7 @@ import HomeLunchFoods from "./_components/home-lunch-foods";
 import HomeFullmenuButton from "./_components/home-fullmenu-button";
 import HomeUpcomingEvents from "./_components/home-upcoming-events";
 import HomeCoffeNight from "./_components/home-coffee-night";
+import { CarouselDApiDemo } from "./_components/home-carousel-events";
 
 export default function Home() {
   return (
@@ -57,7 +58,9 @@ export default function Home() {
       <div className="flex flex-col min-h-screen bg-[#333333]">
 
         <HomeUpcomingEvents/>
-        <HomeCoffeNight/>
+        {/* <HomeCoffeNight/> */}
+        <CarouselDApiDemo/>
+        
 
       </div>
     
