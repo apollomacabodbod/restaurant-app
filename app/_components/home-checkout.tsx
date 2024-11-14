@@ -29,7 +29,7 @@ export default function HomeCheckout(){
 
               <p className=" text-[#333] font-serif  text-[2.5rem] xl:text-[3.5rem] not-italic font-bold whitespace-nowrap">Seasonal Offers</p>
 
-              <Image src={'/seasonal-shape.svg'} width={176} height={176} alt="seasional shape icon" className="absolute top-[0em] xl:top-[1em] left-[16em] xl:left-[21em] -translate-x-1/2 -translate-y-1/2  "/>
+              <Image src={'/seasonal-shape.svg'} width={176} height={176} alt="seasional shape icon" className="absolute top-[0em] xl:top-[1em] left-[13em] xl:left-[21em] -translate-x-1/2 -translate-y-1/2  "/>
 
             </div>
 
