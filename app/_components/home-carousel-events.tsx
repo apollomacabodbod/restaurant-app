@@ -47,17 +47,17 @@ export function CarouselDApiDemo() {
           {/* First Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
             <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
-              <div className="lg:flex lg:items-center lg:justify-center  lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
+              <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
-                  <p className="text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
-                  <p className="text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
-                  <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
-                  <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                  <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
+                  <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
+                  <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
+                  <p className=" font-roboto text-[#FFF] lg:text-[#333] text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
                     <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
@@ -69,17 +69,17 @@ export function CarouselDApiDemo() {
           {/* Second Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
             <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
-              <div className="lg:flex lg:items-center lg:justify-center  lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
+              <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
-                  <p className="text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
-                  <p className="text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
-                  <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
-                  <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                  <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
+                  <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
+                  <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
+                  <p className=" font-roboto text-[#FFF] lg:text-[#333] text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
                     <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
@@ -92,17 +92,17 @@ export function CarouselDApiDemo() {
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
             <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
-              <div className="lg:flex lg:items-center lg:justify-center  lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
+              <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
-                  <p className="text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
-                  <p className="text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
-                  <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
-                  <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                  <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
+                  <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
+                  <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
+                  <p className=" font-roboto text-[#FFF] lg:text-[#333] text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
                     <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
@@ -117,17 +117,17 @@ export function CarouselDApiDemo() {
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
             <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
-              <div className="lg:flex lg:items-center lg:justify-center  lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
+              <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
-                  <p className="text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
-                  <p className="text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
-                  <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
-                  <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
+                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                  <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
+                  <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
+                  <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
+                  <p className=" font-roboto text-[#FFF] lg:text-[#333] text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
                     <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
