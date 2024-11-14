@@ -53,7 +53,7 @@ export function CarouselDApiDemo() {
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
                   <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
                   <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
                   <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
@@ -75,7 +75,7 @@ export function CarouselDApiDemo() {
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
                   <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
                   <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
                   <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
@@ -98,7 +98,7 @@ export function CarouselDApiDemo() {
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
                   <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
                   <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
                   <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
@@ -123,7 +123,7 @@ export function CarouselDApiDemo() {
                     <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
                   </div>
                 </div>
-                <div className="flex flex-col  bg-[#333] lg:bg-white px-[1.875em]  py-[3em] lg:py-[1em] ">
+                <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
                   <p className="text-[#FFF] lg:text-[#333]  font-roboto text-[1.25rem] not-italic font-light   ">Upcoming</p>
                   <p className="text-[#FFF] lg:text-[#333]  font-pt-serif text-[2rem] lg:text-[2.5rem] not-italic font-bold ">Coffee Night</p>
                   <p className=" font-roboto  text-[#FFF] lg:text-[#333] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
