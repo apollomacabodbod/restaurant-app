@@ -41,9 +41,9 @@ export function CarouselDApiDemo() {
   }, [api, current, count])
 
   return (
-    <div className="mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[2em]">
-      <Carousel setApi={setApi} className="w-full overflow-hidden">
-        <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth">
+    <div className="mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[2em] ">
+      <Carousel setApi={setApi} className="w-full overflow-hidden ">
+        <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
           {/* First Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
             <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
@@ -59,7 +59,7 @@ export function CarouselDApiDemo() {
                   <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
                   <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
-                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out ">Book a table</button>
+                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export function CarouselDApiDemo() {
                   <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
                   <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
-                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out ">Book a table</button>
+                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export function CarouselDApiDemo() {
                   <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
                   <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
-                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out ">Book a table</button>
+                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export function CarouselDApiDemo() {
                   <p className=" font-roboto text-[rgba(51,51,51,0.50)] text-[0.875rem] not-italic font-normal">25 september, 2019</p>
                   <p className=" font-roboto text-[1.25rem] not-italic font-light mt-[1.125em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
                   <div className="flex items-center mt-[2.4375em]">
-                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out ">Book a table</button>
+                    <button className="py-[0.75em] px-[2.15625em] bg-[#6327EB] text-[#FFF] font-roboto text-[1.125rem] font-normal not-italic cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out rounded-[0.1875em]">Book a table</button>
                   </div>
                 </div>
               </div>
