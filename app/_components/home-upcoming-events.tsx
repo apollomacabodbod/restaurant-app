@@ -19,7 +19,7 @@ export default function HomeUpcomingEvents(){
 
       <div className="flex items-center justify-center">
 
-        <p className="border border-[#50B498] green text-[#FFF] font-pt-serif  text-[2.3rem] lg:text-[3.5rem] not-italic font-bold ">Upcoming Events</p>
+        <p className="border border-[#50B498] green text-[#FFF] font-pt-serif  text-[2rem] lg:text-[3.5rem] not-italic font-bold ">Upcoming Events</p>
 
       </div>
 
