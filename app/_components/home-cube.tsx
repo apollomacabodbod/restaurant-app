@@ -14,7 +14,7 @@ export default function HomeCube() {
             <div className="relative">
 
               <p className="text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]  whitespace-nowrap  font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out opacity-70  ">
-               Selcome 
+               Welcome 
                 <br className="lg:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
               </p>
