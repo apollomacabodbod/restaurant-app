@@ -55,9 +55,10 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
       }`}
     >
       {/* Blurred background and overlay */}
-      <div className="absolute inset-0 before:absolute before:inset-0 before:bg-black/50 before:backdrop-blur-lg before:z-10">
-        <div className="absolute inset-0 bg-[url('/hero-background.svg')] bg-cover bg-center opacity-30"></div>
-      </div>
+      
+      <div className="absolute inset-0 bg-[url('/blur-hero-background.png')] bg-cover bg-center "></div>
+      <div className="absolute inset-0 bg-black/75 "> </div>
+     
 
       <div className="flex flex-col items-start p-4 relative z-20">
         <Image
