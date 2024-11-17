@@ -1,32 +1,33 @@
+"use client";
 
-
-"use client"
-
-import * as React from "react"
+import React, { useState } from "react";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-  type CarouselApi,
-} from "@/components/ui/carousel"
-import Image from "next/image"
+} from "@/components/ui/carousel";
+import Image from "next/image";
 
 export function HomeGalleryCarousel() {
-
+  const [isSwiping, setIsSwiping] = useState(false);
 
   return (
-    <div className="relative  mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] ">
-      <Carousel  className="w-full overflow-hidden ">
-        <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
+    <div className="mx-auto max-w-full transition-all duration-1000 ease-in-out mb-[-18em]">
+      <Carousel
+        className="w-full overflow-hidden relative"
+        onPointerDown={() => setIsSwiping(true)}
+        onPointerUp={() => setIsSwiping(false)}
+      >
+        <CarouselContent className="flex snap-x snap-mandatory scroll-smooth">
           {/* Carousel Items */}
           {[...Array(4)].map((_, index) => (
             <CarouselItem
               key={index}
-              className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu"
+              className="flex-shrink-0 w-full z-50 snap-start transition-all duration-1000 ease-in-out transform-gpu"
             >
-              <div className="flex flex-col mx-[2em] lg:mx-[8.4375em] bg-white z-40 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+              <div className="flex flex-col mx-[2em] lg:mx-[8.4375em] bg-white  drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
                 <div className="flex items-center justify-center">
                   <Image
                     src={"/home-gallery-rounded.svg"}
@@ -58,25 +59,26 @@ export function HomeGalleryCarousel() {
               </div>
             </CarouselItem>
           ))}
-
-
-          {/* Add more cards as needed */}
         </CarouselContent>
 
-
         {/* Previous Button */}
-        <CarouselPrevious className="absolute left-[3em] lg:left-[12em] xl:left-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700  border border-gray-300 p-2 rounded-full hover:bg-white">
-        &#8249; {/* Left arrow icon */}
+        <CarouselPrevious
+          className={`absolute left-[3em] lg:left-[12em] xl:left-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700 border border-gray-300 p-2 rounded-full hover:bg-white transition ${
+            isSwiping ? "pointer-events-none" : ""
+          }`}
+        >
+          &#8249;
         </CarouselPrevious>
-      
+
         {/* Next Button */}
-        <CarouselNext className="absolute right-[3em] lg:right-[12em] xl:right-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700  border border-gray-300  p-2 rounded-full hover:bg-white">
-        &#8250; {/* Right arrow icon */}
+        <CarouselNext
+          className={`absolute right-[3em] lg:right-[12em] xl:right-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700 border border-gray-300 p-2 rounded-full hover:bg-white transition ${
+            isSwiping ? "pointer-events-none" : ""
+          }`}
+        >
+          &#8250;
         </CarouselNext>
-
-
       </Carousel>
-
     </div>
-  )
+  );
 }
