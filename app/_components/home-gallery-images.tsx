@@ -25,7 +25,7 @@ export default function HomeGalleryImages(){
   return (
     <>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 mx-[2em] lg:mx-[8.4375em] gap-[1.875em] mt-[3.3125em]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-[2em] lg:mx-[8.4375em] gap-[1.875em] mt-[3.3125em]">
 
         {images.map((item) => (
 
