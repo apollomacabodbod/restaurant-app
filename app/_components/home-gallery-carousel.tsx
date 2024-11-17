@@ -17,8 +17,8 @@ export function HomeGalleryCarousel() {
 
 
   return (
-    <div className="relative  mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] ">
-      <Carousel  className="w-full overflow-hidden ">
+    <div className=" mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] ">
+      <Carousel  className="w-full overflow-hidden relative ">
         <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
           {/* First Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
