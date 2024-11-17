@@ -12,6 +12,7 @@ import HomeCoffeNight from "./_components/home-coffee-night";
 import { CarouselDApiDemo } from "./_components/home-carousel-events";
 import HomeGalleryInterior from "./_components/home-gallery-interior";
 import HomeGalleryImages from "./_components/home-gallery-images";
+import HomeGalleryPeople from "./_components/home-gallery-people";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
 
         <HomeGalleryInterior/>
         <HomeGalleryImages/>
+        <HomeGalleryPeople/>
 
 
 
