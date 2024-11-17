@@ -10,6 +10,7 @@ import HomeFullmenuButton from "./_components/home-fullmenu-button";
 import HomeUpcomingEvents from "./_components/home-upcoming-events";
 import HomeCoffeNight from "./_components/home-coffee-night";
 import { CarouselDApiDemo } from "./_components/home-carousel-events";
+import HomeGalleryInterior from "./_components/home-gallery-interior";
 
 export default function Home() {
   return (
@@ -64,6 +65,17 @@ export default function Home() {
         
 
       </div>
+
+
+      <div className="flex flex-col min-h-screen bg-white">
+
+        <HomeGalleryInterior/>
+
+
+
+      </div>
+
+
     
     </>
    
