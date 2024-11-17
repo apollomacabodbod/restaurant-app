@@ -1,26 +1,25 @@
-"use client";
 
-import React, { useState } from "react";
+
+"use client"
+
+import * as React from "react"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
-import Image from "next/image";
+  type CarouselApi,
+} from "@/components/ui/carousel"
+import Image from "next/image"
 
 export function HomeGalleryCarousel() {
-  const [isSwiping, setIsSwiping] = useState(false);
+
 
   return (
-    <div className="mx-auto max-w-full transition-all duration-1000 ease-in-out mb-[-18em]">
-      <Carousel
-        className="w-full overflow-hidden relative"
-        onPointerDown={() => setIsSwiping(true)}
-        onPointerUp={() => setIsSwiping(false)}
-      >
-        <CarouselContent className="flex snap-x snap-mandatory scroll-smooth">
+    <div className="relative  mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] ">
+      <Carousel  className="w-full overflow-hidden ">
+        <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
           {/* Carousel Items */}
           {[...Array(4)].map((_, index) => (
             <CarouselItem
@@ -59,26 +58,25 @@ export function HomeGalleryCarousel() {
               </div>
             </CarouselItem>
           ))}
+
+
+          {/* Add more cards as needed */}
         </CarouselContent>
 
-        {/* Previous Button */}
-        <CarouselPrevious
-          className={`absolute left-[3em] lg:left-[12em] xl:left-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700 border border-gray-300 p-2 rounded-full hover:bg-white transition ${
-            isSwiping ? "pointer-events-none" : ""
-          }`}
-        >
-          &#8249;
-        </CarouselPrevious>
 
+        {/* Previous Button */}
+        <CarouselPrevious className="absolute left-[3em] lg:left-[12em] xl:left-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700  border border-gray-300 p-2 rounded-full hover:bg-white">
+        &#8249; {/* Left arrow icon */}
+        </CarouselPrevious>
+      
         {/* Next Button */}
-        <CarouselNext
-          className={`absolute right-[3em] lg:right-[12em] xl:right-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700 border border-gray-300 p-2 rounded-full hover:bg-white transition ${
-            isSwiping ? "pointer-events-none" : ""
-          }`}
-        >
-          &#8250;
+        <CarouselNext className="absolute right-[3em] lg:right-[12em] xl:right-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700  border border-gray-300  p-2 rounded-full hover:bg-white">
+        &#8250; {/* Right arrow icon */}
         </CarouselNext>
+
+
       </Carousel>
+
     </div>
-  );
+  )
 }
