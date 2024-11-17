@@ -64,7 +64,7 @@ export function HomeGalleryCarousel() {
         {/* Previous Button */}
         <CarouselPrevious
           className={`absolute left-[3em] lg:left-[12em] xl:left-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700 border border-gray-300 p-2 rounded-full hover:bg-white transition ${
-            isSwiping ? "pointer-events-none" : ""
+            isSwiping ? "z-10" : ""
           }`}
         >
           &#8249;
@@ -73,7 +73,7 @@ export function HomeGalleryCarousel() {
         {/* Next Button */}
         <CarouselNext
           className={`absolute right-[3em] lg:right-[12em] xl:right-[13em] top-1/2 transform -translate-y-1/2 bg-white text-gray-700 border border-gray-300 p-2 rounded-full hover:bg-white transition ${
-            isSwiping ? "pointer-events-none" : ""
+            isSwiping ? "z-10" : ""
           }`}
         >
           &#8250;
