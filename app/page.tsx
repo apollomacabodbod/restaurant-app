@@ -15,6 +15,7 @@ import HomeGalleryImages from "./_components/home-gallery-images";
 import HomeGalleryPeople from "./_components/home-gallery-people";
 import HomeGalleryTestimontial from "./_components/home-gallery-testimontial";
 import { HomeGalleryCarousel } from "./_components/home-gallery-carousel";
+import HomePressAboutUs from "./_components/home-press-aboutUs";
 
 export default function Home() {
   return (
@@ -83,6 +84,9 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col min-h-screen bg-[#333]">
+
+
+        <HomePressAboutUs/>
 
      
 
