@@ -17,6 +17,7 @@ import HomeGalleryTestimontial from "./_components/home-gallery-testimontial";
 import { HomeGalleryCarousel } from "./_components/home-gallery-carousel";
 import HomePressAboutUs from "./_components/home-press-aboutUs";
 import HomePressCards from "./_components/home-press-cards";
+import HomeOurChef from "./_components/home-our-chef";
 
 export default function Home() {
   return (
@@ -94,6 +95,13 @@ export default function Home() {
 
       </div>
 
+
+      <div className="flex flex-col min-h-screen bg-white">
+
+        <HomeOurChef/>
+
+
+      </div>
 
     
     </>
