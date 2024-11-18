@@ -16,6 +16,7 @@ import HomeGalleryPeople from "./_components/home-gallery-people";
 import HomeGalleryTestimontial from "./_components/home-gallery-testimontial";
 import { HomeGalleryCarousel } from "./_components/home-gallery-carousel";
 import HomePressAboutUs from "./_components/home-press-aboutUs";
+import HomePressCards from "./_components/home-press-cards";
 
 export default function Home() {
   return (
@@ -87,6 +88,7 @@ export default function Home() {
 
 
         <HomePressAboutUs/>
+        <HomePressCards/>
 
      
 
