@@ -38,14 +38,14 @@ export default function HomePressCards(){
 
 
 
-      <div className="flex flex-col  pt-[3.0625em] px-[1em] bg-white">
+      <div className="flex flex-col  py-[3.0625em] px-[1em] bg-white ">
 
         <div className="flex items-center justify-center ">
 
-          <Image src={'/home-press-card-3.svg'} width={264} height={40} alt="home press card 1"></Image>
+          <Image src={'/home-press-card-3.svg'} width={250} height={40} alt="home press card 1"></Image>
         </div>
 
-        <p className="text-center text-[#333] font-roboto text-[1.25rem] not-italic font-light xl:max-w-[17.125em] mt-[2.5625em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level.</p>
+        <p className=" text-center text-[#333] font-roboto text-[1.25rem] not-italic font-light xl:max-w-[17.125em] mt-[1.5em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level.</p>
         <p className=" text-center text-[#333] font-pt-serif text-[1.5rem] not-italic font-bold mt-[1.875em]">The Wall Street Journal</p>
 
       </div>
