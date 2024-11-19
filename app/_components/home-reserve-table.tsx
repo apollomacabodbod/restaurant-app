@@ -15,6 +15,20 @@ export default function HomeReserveTable(){
   const [showGuest, setshowGuest] = useState(false); // Start closed by default
   const containerRef = useRef<HTMLDivElement>(null);
   const containerGuest = useRef<HTMLDivElement>(null);
+
+
+
+
+  const [date, setDate] = useState<string>("");
+
+  useEffect(() => {
+    // Get today's date in YYYY-MM-DD format
+    const today = new Date();
+    const formattedDate = today.toISOString().split("T")[0]; // Extract date part (YYYY-MM-DD)
+    setDate(formattedDate);
+  }, []);
+
+
   
   const togglePaymentOptions = () => {
     setShowPaymentOptions((prev) => !prev);
@@ -74,8 +88,14 @@ export default function HomeReserveTable(){
             <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em]">Date</p>
 
 
-            <input type="date" id="birthday" name="birthday" className="font-roboto font-light border border-gray-300 rounded-[0.3125em] text-[1.25rem] text-[rgba(51,51,51,0.50)] lg:pr-[10em]  xl:pr-[15em] mt-[0.875em] py-[0.3em] px-3"  />
-
+            <input
+              type="date"
+              id="birthday"
+              name="birthday"
+              value={date} // Set the default value to today's date
+              onChange={(e) => setDate(e.target.value)} // Optional: handle value change
+              className="font-roboto font-light border border-gray-300 rounded-[0.3125em] text-[1.25rem] text-[rgba(51,51,51,0.50)] lg:pr-[10em] xl:pr-[15em] mt-[0.875em] py-[0.3em] px-3"
+            />
             <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em] ">Time</p>
 
 
