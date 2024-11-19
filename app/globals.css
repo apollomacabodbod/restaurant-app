@@ -141,6 +141,16 @@ input[type="date"]:focus {
 
 
 
+input[type="date"] {
+  -webkit-appearance: none; /* Disable default browser appearance */
+  -moz-appearance: none; /* For Firefox */
+  appearance: none; /* Standard property */
+  padding: 0.5rem; /* Add custom padding */
+  width: 100%; /* Ensure it spans the full width */
+}
+
+
+
 
 
 
