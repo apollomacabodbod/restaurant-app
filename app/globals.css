@@ -150,10 +150,15 @@ input[type="date"] {
   width: 100%; /* Ensure it spans the full width */
   box-sizing: border-box;
   background-color: transparent; /* Reset background color */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  text-align: left; /* Align text to the start */
+}
+
+
+
+/* Fix for iOS Safari */
+input[type="date"]::-webkit-datetime-edit {
+  text-align: left; /* Ensures text aligns to the left */
+  padding: 0; /* Resets padding inside the date field */
 }
 
 
