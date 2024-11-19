@@ -18,6 +18,7 @@ import { HomeGalleryCarousel } from "./_components/home-gallery-carousel";
 import HomePressAboutUs from "./_components/home-press-aboutUs";
 import HomePressCards from "./_components/home-press-cards";
 import HomeOurChef from "./_components/home-our-chef";
+import HomeReserveTable from "./_components/home-reserve-table";
 
 export default function Home() {
   return (
@@ -99,6 +100,14 @@ export default function Home() {
       <div className="flex flex-col min-h-screen bg-white">
 
         <HomeOurChef/>
+
+
+      </div>
+
+
+      <div className="flex flex-col min-h-screen bg-white" >
+
+        <HomeReserveTable/>
 
 
       </div>

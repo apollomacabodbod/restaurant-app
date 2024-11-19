@@ -117,6 +117,25 @@
 
 
 
+/* General style to hide the icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* For Firefox */
+input[type="date"]::-moz-calendar-picker-indicator {
+  display: none;
+}
+
+/* For Edge */
+input[type="date"]::-ms-clear {
+  display: none;
+}
+
+
+
+
 
 
 
