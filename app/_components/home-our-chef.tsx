@@ -20,18 +20,14 @@ export default function HomeOurChef(){
 
         <div className="flex flex-col border border-[#50B498] green">
 
-          <div className="flex items-center justify-center lg:justify-start border border-[#50B498] green relative">
 
-            <Image src={'/home-our-chef.svg'} width={570} height={560} alt="our chef icon"></Image>
-
-          
-            <div className="absolute top-[12em]  lg:top-[18em] xl:top-[20.8125em] left-[2em]  sm:left-[0em] sm:hidden block lg:block  -translate-x-1/2 -translate-y-1/2    transition-all duration-1000 ease-in-out object-cover">
-          
-              <div className="relative ">
+          <div className="flex items-center justify-center">
 
 
-                <div className="flex flex-col bg-[#BBA285] w-[120px] h-[120px] rounded-[0.5em] "></div>
+            <div className=" bg-center bg-cover bg-no-repeat   bg-[url('/home-our-chef.svg')] w-[30.625em] h-[30.625em] ">
 
+
+              <div className="relative flex flex-col bg-[#BBA285] w-[120px] h-[120px] rounded-[0.5em] mt-[20.8125em] sm:ml-[-3em] ml-[-1.5em]">
 
                 <Image
                   src={'/kitchen-oval.svg'}
@@ -48,16 +44,18 @@ export default function HomeOurChef(){
                   className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                 />
 
-
               </div>
-      
+
+
             </div>
-          
+
+
           </div>
 
 
-       
+         
 
+       
 
         </div>
 

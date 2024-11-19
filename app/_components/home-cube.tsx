@@ -17,30 +17,37 @@ export default function HomeCube() {
                Welcome 
                 <br className="lg:hidden transition-all duration-1000 ease-in-out"/> 
                 {`${" to our"}`}
+
               </p>
 
-              <p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
+
+
+              <Image
+                src={'/cube.svg'}
+                alt="facebook logo"
+                width={176}
+                height={176}
+                // className="border border-[#50B498] absolute top-[2em] left-[16em] md:left-[22em] -translate-x-1/2 -translate-y-1/2 leading-tight tracking-tight"
+                className=" absolute top-[3.5em]    lg:top-[4.5em] xl:top-[2.4em]  left-[12em]     lg:left-[19em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
+              />
+
+            </div>
+              
+
+            <p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
                Restaurant
-              </p>
+            </p>
 
-              <div className="flex items-center">
+            <div className="flex items-center">
 
-
-                <Image
-                  src={'/cube.svg'}
-                  alt="facebook logo"
-                  width={176}
-                  height={176}
-                  // className="border border-[#50B498] absolute top-[2em] left-[16em] md:left-[22em] -translate-x-1/2 -translate-y-1/2 leading-tight tracking-tight"
-                  className=" absolute top-[3.5em]    lg:top-[4.5em] xl:top-[2.4em]  left-[12em]     lg:left-[19em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
-                />
-
-
-              </div>
 
 
 
             </div>
+
+
+
+            
 
 
             <p className="text-[1.5rem]  font-roboto text-[#FFF] not-italic font-light leading-[2em] mt-[1.6875em] opacity-70 ">Everyday 8:00 am - 23:00 pm</p>
