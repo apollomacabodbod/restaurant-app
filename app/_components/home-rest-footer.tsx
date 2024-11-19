@@ -93,7 +93,7 @@ export default function HomeRestFooter(){
 
 
 
-      <p className=" text-center text-[rgba(255,255,255,0.50)] mt-[1.5625em] font-roboto text-[1.25rem] not-italic font-light">2019 Restaurant. All Rights Reserved.</p>
+      <p className=" text-center text-[rgba(255,255,255,0.50)] mt-[1.5625em] font-roboto text-[1.25rem] not-italic font-light">2024 Restaurant. All Rights Reserved.</p>
 
 
 
