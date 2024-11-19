@@ -145,8 +145,8 @@ input[type="date"] {
   -webkit-appearance: none; /* Disable default browser appearance */
   -moz-appearance: none; /* For Firefox */
   appearance: none; /* Standard property */
-  padding: 0.3em; /* Add custom padding */
-  margin: 0;
+  padding-top: 0.3em; /* Add custom padding */
+  padding-bottom: 0.3em; /* Add custom padding */
   width: 100%; /* Ensure it spans the full width */
   box-sizing: border-box;
   background-color: transparent; /* Reset background color */
