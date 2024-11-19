@@ -7,7 +7,7 @@ export default function HomeCoffeNight(){
     
     <>
     
-      <div className="flex flex-col mx-[2em] lg:mx-[5.4375em] xl:mx-[8.4375em] border border-[#50B498] green my-[2.4375em]">
+      <div className="flex flex-col mx-[2em] lg:mx-[5.4375em] xl:mx-[8.4375em] border border-[#50B498] green my-[2.4375em] transition-all duration-1000 ease-in-out">
 
         <div className="lg:flex lg:items-center lg:justify-center lg:bg-white lg:gap-[3em]  xl:gap-[4.125em] border border-[#50B498] green">
 

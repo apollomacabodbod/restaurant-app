@@ -8,7 +8,7 @@ export default function HomePressCards(){
   return (<>
 
 
-    <div className="grid grid-cols-1 xl:grid-cols-3   mx-[2em] lg:mx-[8.1em] gap-[1.875em] my-[4.3125em] ">
+    <div className="grid grid-cols-1 xl:grid-cols-3   mx-[2em] lg:mx-[8.1em] gap-[1.875em] my-[4.3125em] transition-all duration-1000 ease-in-out">
 
       <div className="flex flex-col   py-[3.0625em] px-[1em] bg-white rounded-[0.1875em]" >
 

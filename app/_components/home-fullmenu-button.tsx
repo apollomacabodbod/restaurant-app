@@ -7,7 +7,7 @@ export default function HomeFullmenuButton(){
   return (<>
 
 
-    <div className="flex flex-col mt-[2.875em] mb-[5em]">
+    <div className="flex flex-col mt-[2.875em] mb-[5em] transition-all duration-1000 ease-in-out">
 
 
 

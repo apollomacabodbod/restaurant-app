@@ -9,7 +9,7 @@ export default function HomeRestFooter(){
   return (<>
 
 
-    <div className="flex flex-col  mt-[4.5625em] mb-[2em] lg:mt-[15em]">
+    <div className="flex flex-col  mt-[4.5625em] mb-[2em] lg:mt-[15em] transition-all duration-1000 ease-in-out">
 
 
       <p className=" text-[#fff] text-center font-pt-serif text-[2.5rem] not-italic font-bold ">REST</p>

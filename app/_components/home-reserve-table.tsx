@@ -73,7 +73,7 @@ export default function HomeReserveTable(){
   return (
     <>
 
-      <div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+      <div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out">
 
 
         <div className="lg:flex lg:items-center lg:justify-between  lg:gap-[1.9em] xl:gap-[3.875em] ">

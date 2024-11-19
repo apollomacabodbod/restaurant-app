@@ -11,7 +11,7 @@ export default function HomeGalleryTestimontial(){
 
   return (<>
 
-    <div className="flex flex-col border border-[#50B498] green  mx-[2em] lg:mx-[8.4375em] bg-white z-50">
+    <div className="flex flex-col border border-[#50B498] green  mx-[2em] lg:mx-[8.4375em] bg-white z-50 transition-all duration-1000 ease-in-out">
 
       <div className="flex items-center justify-center">
 
