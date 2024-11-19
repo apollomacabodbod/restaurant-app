@@ -24,7 +24,7 @@ export default function HomeOurChef(){
           <div className="flex items-center justify-center">
 
 
-            <div className=" bg-center bg-cover bg-no-repeat   bg-[url('/home-our-chef.svg')] w-[30.625em] h-[30.625em] ">
+            <div className=" bg-center bg-cover bg-no-repeat   bg-[url('/home-our-chef.svg')] w-[30.625em] h-[30.625em] rounded-[0.1875em]">
 
 
               <div className="relative flex flex-col bg-[#BBA285] w-[120px] h-[120px] rounded-[0.5em] mt-[20.8125em] sm:ml-[-3em] ml-[-1.5em]">

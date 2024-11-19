@@ -22,7 +22,7 @@ export function HomeGalleryCarousel() {
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
             
             
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
 
               <div className="flex items-center justify-center">
 
@@ -50,7 +50,7 @@ export function HomeGalleryCarousel() {
 
           {/* Second Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
 
               <div className="flex items-center justify-center">
 
@@ -78,7 +78,7 @@ export function HomeGalleryCarousel() {
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
 
               <div className="flex items-center justify-center">
 
@@ -108,7 +108,7 @@ export function HomeGalleryCarousel() {
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
 
               <div className="flex items-center justify-center">
 

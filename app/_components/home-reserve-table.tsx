@@ -128,7 +128,7 @@ export default function HomeReserveTable(){
 
             <div className="flex items-center justify-center">
 
-              <Image src={'/home-our-chef-2.svg'} width={570} height={560} alt=""></Image>
+              <Image src={'/home-our-chef-2.svg'} width={570} height={560} alt="" className="rounded-[0.1875em]"></Image>
 
 
 

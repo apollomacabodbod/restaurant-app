@@ -46,7 +46,7 @@ export function CarouselDApiDemo() {
         <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
           {/* First Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
+            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
@@ -68,7 +68,7 @@ export function CarouselDApiDemo() {
 
           {/* Second Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
+            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
@@ -91,7 +91,7 @@ export function CarouselDApiDemo() {
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
+            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
@@ -116,7 +116,7 @@ export function CarouselDApiDemo() {
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform ">
+            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
