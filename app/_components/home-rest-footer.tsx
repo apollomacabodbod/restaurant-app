@@ -30,7 +30,7 @@ export default function HomeRestFooter(){
 
 
 
-      <div className="flex items-center justify-center mt-[5.4375em] gap-[0.5em] ">
+      <div className="flex items-center justify-center mt-[5.4375em] gap-[0.7em] ">
 
 
         {/* Container for overlayed images */}
