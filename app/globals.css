@@ -148,9 +148,9 @@ input[type="date"] {
   padding-top: 0.3em; /* Add custom padding */
   padding-bottom: 0.3em; /* Add custom padding */
   width: 100%; /* Ensure it spans the full width */
-  box-sizing: border-box;
   background-color: transparent; /* Reset background color */
   text-align: left; /* Align text to the start */
+  margin-top: 0.875em;
 }
 
 
