@@ -150,7 +150,10 @@ input[type="date"] {
   width: 100%; /* Ensure it spans the full width */
   box-sizing: border-box;
   background-color: transparent; /* Reset background color */
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 
