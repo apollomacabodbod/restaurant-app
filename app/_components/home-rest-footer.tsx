@@ -9,21 +9,21 @@ export default function HomeRestFooter(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green my-[4.5625em] lg:mt-[15em]">
+    <div className="flex flex-col  my-[4.5625em] lg:mt-[15em]">
 
 
-      <p className="border border-[#50B498] green text-[#fff] text-center font-pt-serif text-[2.5rem] not-italic font-bold ">REST</p>
+      <p className=" text-[#fff] text-center font-pt-serif text-[2.5rem] not-italic font-bold ">REST</p>
 
 
 
-      <div className="lg:flex lg:items-center lg:justify-center lg:border border-[#50B498] green   lg:gap-[3em] mt-[1.6em] ">
+      <div className="lg:flex lg:items-center lg:justify-center    lg:gap-[3em] mt-[1.6em] ">
 
 
-        <p className="border border-[#50B498] green text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em] lg:mt-[0em]">About us</p>
-        <p className="border border-[#50B498] green text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">Menu</p>
-        <p className="border border-[#50B498] green text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em]  lg:mt-[0em]">Events</p>
-        <p className="border border-[#50B498] green text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">News</p>
-        <p className="border border-[#50B498] green text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">Contact</p>
+        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em] lg:mt-[0em]">About us</p>
+        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">Menu</p>
+        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em]  lg:mt-[0em]">Events</p>
+        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">News</p>
+        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">Contact</p>
 
 
       </div>
@@ -93,7 +93,7 @@ export default function HomeRestFooter(){
 
 
 
-      <p className="border border-[#50B498] green text-center text-[rgba(255,255,255,0.50)] mt-[1.5625em] font-roboto text-[1.25rem] not-italic font-light">2019 Restaurant. All Rights Reserved.</p>
+      <p className=" text-center text-[rgba(255,255,255,0.50)] mt-[1.5625em] font-roboto text-[1.25rem] not-italic font-light">2019 Restaurant. All Rights Reserved.</p>
 
 
 

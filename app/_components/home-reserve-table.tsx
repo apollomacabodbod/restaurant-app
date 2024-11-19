@@ -5,6 +5,8 @@ import Image from "next/image";
 
 
 import { useState, useEffect, useRef } from 'react';
+import HomeReserveDropDown from "./home-dropdown-time";
+import HomeDropDownGuest from "./home-dropdown-guest";
 
 export default function HomeReserveTable(){
 
@@ -57,91 +59,37 @@ export default function HomeReserveTable(){
   return (
     <>
 
-      <div className="flex flex-col border border-[#50B498] bg-white green mx-[2em]  mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]    lg:pb-[10em] lg:px-[4.5em]">
+      <div className="flex flex-col  bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
 
 
-        <div className="lg:flex lg:items-center lg:justify-between  gap-[3.875em] lg:border border-[#50B498] green">
+        <div className="lg:flex lg:items-center lg:justify-between  lg:gap-[1.9em] xl:gap-[3.875em] ">
 
 
-          <div className="flex flex-col border border-[#50B498] green ">
+          <div className="flex flex-col  ">
 
 
-            <p className="border border-[#50B498] green text-[#333] font-roboto text-[1.5rem] not-italic font-light ">Reserve</p>
-            <p className="border border-[#50B498] green text-[#333] font-pt-serif not-italic font-bold  text-[3.5rem]">A Table</p>
+            <p className=" text-[#333] font-roboto text-[1.5rem] not-italic font-light ">Reserve</p>
+            <p className=" text-[#333] font-pt-serif not-italic font-bold  text-[3.5rem]">A Table</p>
 
-            <p className="border border-[#50B498] green font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2.5625em]">Date</p>
-
-
-            <input type="date" id="birthday" name="birthday" className="font-roboto font-light border border-[#DADADA] rounded-[0.3125em] text-[1.25rem] text-[rgba(51,51,51,0.50)] lg:pr-[10em]  xl:pr-[15em] mt-[0.875em]"  />
-
-            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2.25em] ">Time</p>
+            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em]">Date</p>
 
 
-            <div className='border border-[#DADADA]  flex flex-col py-[0.5em] px-[1rem] rounded-[0.3125em] mt-[0.875em]' ref={containerRef}
-              onClick={togglePaymentOptions}
-            >
+            <input type="date" id="birthday" name="birthday" className="font-roboto font-light border border-gray-300 rounded-[0.3125em] text-[1.25rem] text-[rgba(51,51,51,0.50)] lg:pr-[10em]  xl:pr-[15em] mt-[0.875em] py-[0.3em] px-3"  />
 
-              <div className="flex items-center justify-between mb-[0.5em]">
-
-                <button className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)] ">7:00 AM</button>
-
-                <Image src={'/home-reserve-table.svg'} width={10} height={6} alt=""></Image>
+            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em] ">Time</p>
 
 
-              </div>
-            
-
-              <div
-                className={`${
-                  showPaymentOptions ? 'max-h-36 overflow-y-auto' : 'max-h-0 opacity-0'
-                } overflow-hidden transition-all duration-500 ease-in-out`}
-              >
-                <div className=''>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">9:00 AM</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">12:00 PM</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">3:00 PM</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">6:00 PM</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">9:00 PM</p>
-                </div>
-              </div>
-            </div>
-
-            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2.25em]">Guest</p>
+            <HomeReserveDropDown/>
 
 
-            <div className='border border-[#DADADA] green flex flex-col py-[0.5em] px-[1rem] rounded-[0.3125em] mt-[0.875em]' ref={containerGuest}
-              onClick={toggleGuest}
-            >
-
-              <div className="flex items-center justify-between mb-[0.5em]">
-
-                <button className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">2 People</button>
-
-                <Image src={'/home-reserve-table.svg'} width={10} height={6} alt=""></Image>
+            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em]">Guest</p>
 
 
-              </div>
-            
+            <HomeDropDownGuest/>
 
-              <div
-                className={`${
-                  showGuest ? 'max-h-36 overflow-y-auto' : 'max-h-0 opacity-0'
-                } overflow-hidden transition-all duration-500 ease-in-out`}
-              >
-                <div className=''>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">3 People</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">4 People</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">5 People</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">6 People</p>
-                  <p className="font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]">7 People</p>
-                </div>
-              </div>
-            </div>
+            <div className="flex items-center  mt-[1em]">
 
-
-            <div className="flex items-center border border-[#50B498] green mt-[2em]">
-
-              <button className="border border-[#50B498] green text-[#fff]  bg-[#6327EB] py-[0.75em] px-[2.40625em] text-[1.125rem] font-roboto font-normal rounded-[0.1875em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">Find a table</button>
+              <button className=" text-[#fff]  bg-[#6327EB] py-[0.75em] px-[2.40625em] text-[1.125rem] font-roboto font-normal rounded-[0.1875em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">Find a table</button>
 
             </div>
            
