@@ -10,7 +10,7 @@ export default function HomeOurChef(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green my-[10em] mx-[2em] lg:mx-[5em]  xl:mx-[8.4375em]">
+    <div className="flex flex-col border border-[#50B498] green my-[9em] mx-[2em] lg:mx-[5em]  xl:mx-[8.4375em]">
 
 
       <div className="lg:flex lg:items-center lg:justify-between lg:gap-[2em] xl:gap-[8.125em] lg:border border-[#50B498] green">

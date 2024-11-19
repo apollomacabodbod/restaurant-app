@@ -100,14 +100,14 @@ export default function Home() {
       <div className="flex flex-col min-h-screen bg-white">
 
         <HomeOurChef/>
-
+        <HomeReserveTable/>
 
       </div>
 
 
-      <div className="flex flex-col min-h-screen bg-white" >
 
-        <HomeReserveTable/>
+      <div className="flex flex-col min-h-screen bg-[#333] ">
+
 
 
       </div>
