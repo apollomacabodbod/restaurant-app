@@ -134,6 +134,12 @@ input[type="date"]::-ms-clear {
 }
 
 
+/* Remove border when the input is focused */
+input[type="date"]:focus {
+  outline: none; /* Removes the default outline */
+}
+
+
 
 
 
