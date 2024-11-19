@@ -107,7 +107,7 @@ export default function HomeReserveTable(){
 
             <HomeDropDownGuest/>
 
-            <div className="flex items-center  mt-[1em]">
+            <div className="flex items-center  mt-[1em]  xl:mt-[3em]">
 
               <button className=" text-[#fff]  bg-[#6327EB] py-[0.75em] px-[2.40625em] text-[1.125rem] font-roboto font-normal rounded-[0.1875em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">Find a table</button>
 
