@@ -19,6 +19,7 @@ import HomePressAboutUs from "./_components/home-press-aboutUs";
 import HomePressCards from "./_components/home-press-cards";
 import HomeOurChef from "./_components/home-our-chef";
 import HomeReserveTable from "./_components/home-reserve-table";
+import HomeRestFooter from "./_components/home-rest-footer";
 
 export default function Home() {
   return (
@@ -106,7 +107,9 @@ export default function Home() {
 
 
 
-      <div className="flex flex-col min-h-screen bg-[#333] ">
+      <div className="flex flex-col min-h-[28.75em] bg-[#333] ">
+
+        <HomeRestFooter/>
 
 
 
