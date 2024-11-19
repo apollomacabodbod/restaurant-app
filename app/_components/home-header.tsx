@@ -6,63 +6,19 @@ import Link from "next/link"
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Sidebar from "./home-sidebar-mobile";
+import { useHeaderState } from "@/hooks/useHeader";
 
 export default function HomeHeader(){
 
-  // State to manage sidebar visibility
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const { isSidebarOpen, setIsSidebarOpen, isScrolling } = useHeaderState();
 
-  // Function to toggle sidebar
-  const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
-
-
-
-  // Automatically close sidebar when viewport is larger than small screen
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 640) {
-        setIsSidebarOpen(false);
-      }
-    };
-
-    // Add event listener for resize
-    window.addEventListener("resize", handleResize);
-
-    // Clean up event listener on unmount
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-
-  const [scrolling, setScrolling] = useState(false);
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-
-  const pathname = usePathname()
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const isScrolling = window.scrollY > 0;
-      setScrolling(isScrolling);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-  
 
   return (<>
 
 
     <header
       className={`fixed top-0 left-0 w-full py-[1em] transition-all duration-1000 ease-in-out z-10 ${
-        scrolling
+        isScrolling
           ? 'backdrop-blur-lg bg-black/50 shadow-lg'
           : 'bg-transparent backdrop-blur-none shadow-none'
       }`}
@@ -171,16 +127,16 @@ export default function HomeHeader(){
 
           {/* Overlay Sidebar Mobile*/}
 
-          {sidebarOpen && (
+          {isSidebarOpen && (
             <div
               className="fixed inset-0 min-h-screen bg-black opacity-50 z-40"
-              onClick={() => setSidebarOpen(false)} // Close sidebar on overlay click
+              onClick={() => setIsSidebarOpen(false)} // Close sidebar on overlay click
             />
           )}
 
 
           {/* Sidebar */}
-          <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+          <Sidebar sidebarOpen={isSidebarOpen} setSidebarOpen={setIsSidebarOpen} />
 
 
           {/* Humberger */}
@@ -192,7 +148,7 @@ export default function HomeHeader(){
               width={48}
               height={48}
               className=" min-w-[3em] "
-              onClick={() => setSidebarOpen(!sidebarOpen)} // Toggle sidebar on click
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)} // Toggle sidebar on click
             />
             <Image
               src={'/humberger.svg'}
@@ -200,7 +156,7 @@ export default function HomeHeader(){
               width={20}
               height={16}
               className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-              onClick={() => setSidebarOpen(!sidebarOpen)} // Toggle sidebar on click
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)} // Toggle sidebar on click
             />
           </div>
 
