@@ -37,7 +37,7 @@ export default function HomeCube() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
-                transition={{ duration: 0.1 }}
+                transition={{ duration: 0.8 }}
                 variants={{
                   hidden: { opacity: 0, y: 5 },
                   visible: { opacity: 1, y: 0 },
@@ -52,7 +52,7 @@ export default function HomeCube() {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.5 }}
-                  transition={{ duration: 0.1 }}
+                  transition={{ duration: 0.8 }}
                   variants={{
                     hidden: { opacity: 0, y: 5 },
                     visible: { opacity: 1, y: 0 },
@@ -70,7 +70,7 @@ export default function HomeCube() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
-                transition={{ duration: 0.1 }}
+                transition={{ duration: 0.8 }}
                 variants={{
                   hidden: { opacity: 0, y: 5 },
                   visible: { opacity: 1, y: 0 },
