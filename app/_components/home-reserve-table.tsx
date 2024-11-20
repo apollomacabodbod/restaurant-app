@@ -73,7 +73,7 @@ export default function HomeReserveTable(){
   return (
     <>
 
-      <div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out"
+      <div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    lg:mx-[5em] xl:mx-[8.4375em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out "
       
       
       >
@@ -185,7 +185,7 @@ export default function HomeReserveTable(){
 
             <HomeDropDownGuest/>
 
-            <motion.div className="flex items-center  mt-[1em]  xl:mt-[3em] transition-all duration-1000 ease-in-out"
+            <motion.div className="flex items-center  mt-[2.5em]  xl:mt-[2.5em] transition-all duration-1000 ease-in-out"
             
               initial="hidden"
               whileInView="visible"
