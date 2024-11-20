@@ -6,6 +6,8 @@ import Image from "next/image"
 import { useState } from "react"
 import { foods } from "../_types/home-foods-types"
 
+import { motion } from "framer-motion";
+
 
 
 export default function HomeLunchFoods(){
@@ -28,7 +30,18 @@ export default function HomeLunchFoods(){
   return (<>
 
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 mt-[1em] mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out  gap-[1em] lg:gap-[0.5em]">
+    <motion.div className="grid grid-cols-1 lg:grid-cols-2 mt-[1em] mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out  gap-[1em] lg:gap-[0.5em]"
+    
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0 }}
+      variants={{
+        hidden: { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0 },
+      }}
+    
+    >
 
       {homeFoods.map(item => (
 
@@ -84,7 +97,7 @@ export default function HomeLunchFoods(){
       ))}
 
 
-    </div>
+    </motion.div>
     
   </>)
 }

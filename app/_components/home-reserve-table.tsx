@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 
-
+import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from 'react';
 import HomeReserveDropDown from "./home-dropdown-time";
 import HomeDropDownGuest from "./home-dropdown-guest";
@@ -73,7 +73,18 @@ export default function HomeReserveTable(){
   return (
     <>
 
-      <div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out">
+      <motion.div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out"
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      
+      >
 
 
         <div className="lg:flex lg:items-center lg:justify-between  lg:gap-[1.9em] xl:gap-[3.875em] ">
@@ -145,7 +156,7 @@ export default function HomeReserveTable(){
 
 
 
-      </div>
+      </motion.div>
     
     </>
     

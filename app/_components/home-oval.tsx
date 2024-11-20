@@ -1,4 +1,8 @@
+
+"use client"
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function HomeOval(){
 
@@ -6,7 +10,18 @@ export default function HomeOval(){
     
     <>
 
-      <div className="flex flex-col mb-[2em] mt-[2em] xl:mt-[0em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out ">
+      <motion.div className="flex flex-col mb-[2em] mt-[2em] xl:mt-[0em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out "
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      
+      >
 
         <div className="flex items-center justify-center">
 
@@ -34,7 +49,7 @@ export default function HomeOval(){
      
 
 
-      </div>
+      </motion.div>
 
 
 

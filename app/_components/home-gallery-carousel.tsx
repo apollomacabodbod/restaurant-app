@@ -1,5 +1,7 @@
 "use client"
 
+
+import { motion } from "framer-motion";
 import * as React from "react"
 import {
   Carousel,
@@ -15,7 +17,19 @@ export function HomeGalleryCarousel() {
 
 
   return (
-    <div className=" mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] ">
+    <motion.div className=" mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] "
+    
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0 }}
+      variants={{
+        hidden: { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0 },
+      }}
+   
+    
+    >
       <Carousel  className="w-full overflow-hidden relative ">
         <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
           {/* First Card */}
@@ -151,7 +165,7 @@ export function HomeGalleryCarousel() {
 
       </Carousel>
 
-    </div>
+    </motion.div>
   )
 }
       

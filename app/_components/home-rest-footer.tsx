@@ -1,3 +1,10 @@
+
+"use client"
+
+import { motion } from "framer-motion";
+
+
+
 import Image from "next/image";
 
 
@@ -9,7 +16,18 @@ export default function HomeRestFooter(){
   return (<>
 
 
-    <div className="flex flex-col  mt-[4.5625em] mb-[2em] lg:mt-[15em] transition-all duration-1000 ease-in-out">
+    <motion.div className="flex flex-col  mt-[4.5625em] mb-[2em] lg:mt-[15em] transition-all duration-1000 ease-in-out"
+    
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0 }}
+      variants={{
+        hidden: { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0 },
+      }}
+    
+    >
 
 
       <p className=" text-[#fff] text-center font-pt-serif text-[2.5rem] not-italic font-bold ">REST</p>
@@ -97,7 +115,7 @@ export default function HomeRestFooter(){
 
 
 
-    </div>
+    </motion.div>
     
     
   </>)

@@ -1,5 +1,8 @@
-import Image from "next/image";
+"use client"
 
+
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function HomeDiscover(){
 
@@ -8,7 +11,18 @@ export default function HomeDiscover(){
     
     <>
 
-      <div className="flex flex-col mx-[2em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em]   transition-all duration-1000 ease-in-out">
+      <motion.div className="flex flex-col mx-[2em] lg:mx-[8.4375em]  my-[5em] lg:my-[10em]   transition-all duration-1000 ease-in-out"
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      
+      >
 
 
 
@@ -100,7 +114,7 @@ export default function HomeDiscover(){
         </div>
 
 
-      </div>
+      </motion.div>
       
 
 

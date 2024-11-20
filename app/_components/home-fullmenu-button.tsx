@@ -1,4 +1,7 @@
 
+"use client"
+
+import { motion } from "framer-motion";
 
 
 export default function HomeFullmenuButton(){
@@ -7,7 +10,17 @@ export default function HomeFullmenuButton(){
   return (<>
 
 
-    <div className="flex flex-col mt-[2.875em] mb-[5em] transition-all duration-1000 ease-in-out">
+    <motion.div className="flex flex-col mt-[2.875em] mb-[5em] transition-all duration-1000 ease-in-out"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0 }}
+      variants={{
+        hidden: { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0 },
+      }}
+    
+    >
 
 
 
@@ -21,7 +34,7 @@ export default function HomeFullmenuButton(){
        
 
 
-    </div>
+    </motion.div>
     
     
   </>)

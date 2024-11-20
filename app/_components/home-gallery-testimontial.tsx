@@ -3,7 +3,7 @@
 
 
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 
 
 export default function HomeGalleryTestimontial(){
@@ -11,7 +11,19 @@ export default function HomeGalleryTestimontial(){
 
   return (<>
 
-    <div className="flex flex-col border border-[#50B498] green  mx-[2em] lg:mx-[8.4375em] bg-white z-50 transition-all duration-1000 ease-in-out">
+    <motion.div className="flex flex-col border border-[#50B498] green  mx-[2em] lg:mx-[8.4375em] bg-white z-50 transition-all duration-1000 ease-in-out"
+    
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0 }}
+      variants={{
+        hidden: { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0 },
+      }}
+    
+    
+    >
 
       <div className="flex items-center justify-center">
 
@@ -32,7 +44,7 @@ export default function HomeGalleryTestimontial(){
 
 
 
-    </div>
+    </motion.div>
     
   </>)
 }

@@ -1,7 +1,7 @@
 
 "use client"
 
-
+import { motion } from "framer-motion";
 import { useState } from "react"
 import { gallery } from "../_types/home-gallery-images-types"
 import Image from "next/image"
@@ -25,7 +25,18 @@ export default function HomeGalleryImages(){
   return (
     <>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-[2em] lg:mx-[8.4375em] gap-[1.875em] mt-[3.3125em] transition-all duration-1000 ease-in-out">
+      <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-[2em] lg:mx-[8.4375em] gap-[1.875em] mt-[3.3125em] transition-all duration-1000 ease-in-out"
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      
+      >
 
         {images.map((item) => (
 
@@ -43,7 +54,7 @@ export default function HomeGalleryImages(){
         ))}
 
 
-      </div>
+      </motion.div>
     
     
     </>

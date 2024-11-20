@@ -2,6 +2,10 @@
 
 "use client"
 
+
+import { motion } from "framer-motion";
+
+
 import * as React from "react"
 import {
   Carousel,
@@ -41,7 +45,19 @@ export function CarouselDApiDemo() {
   }, [api, current, count])
 
   return (
-    <div className="mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[2em] ">
+    <motion.div className="mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[2em] "
+    
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0 }}
+      variants={{
+        hidden: { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0 },
+      }}
+   
+    
+    >
       <Carousel setApi={setApi} className="w-full overflow-hidden ">
         <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
           {/* First Card */}
@@ -152,6 +168,6 @@ export function CarouselDApiDemo() {
           ></div>
         ))}
       </div>
-    </div>
+    </motion.div>
   )
 }

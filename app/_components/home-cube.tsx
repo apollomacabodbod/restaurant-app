@@ -100,32 +100,60 @@ export default function HomeCube() {
             </div>
               
 
-            <p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out ">
+            <motion.p className=" opacity-70  text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]   font-bold   font-pt-serif sm:leading-[1em] transition-all duration-1000 ease-in-out "
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            
+            >
                Restaurant
-            </p>
-
-            <div className="flex items-center">
-
-
-
-
-            </div>
-
+            </motion.p>
 
 
             
 
 
-            <p className="text-[1.5rem]  font-roboto text-[#FFF] not-italic font-light leading-[2em] mt-[1.6875em] opacity-70 ">Everyday 8:00 am - 23:00 pm</p>
+            <motion.p className="text-[1.5rem]  font-roboto text-[#FFF] not-italic font-light leading-[2em] mt-[1.6875em] opacity-70 transition-all duration-1000 ease-in-out"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            
+            >
+              
+              Everyday 8:00 am - 23:00 pm
+            
+            
+            </motion.p>
 
 
 
-            <div className="flex items-center  gap-[1.875em] mt-[2.5em]">
+            <motion.div className="flex items-center  gap-[1.875em] mt-[2.5em] transition-all duration-1000 ease-in-out"
+
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            
+            >
 
               <button className="font-roboto py-[0.75em] bg-[#6327EB] px-[0.8em] sm:px-[2.15625em] text-[#FFFFFF] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] cursor-pointer opacity-70 hover:opacity-100 hover:transition-opacity  transition-all duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out ">Book a table</button>
               <button className="font-roboto py-[0.75em]  border-2 border-[#7a7b7c] text-[#FFFFFF] px-[0.9em] sm:px-[2.15625em] rounded-[0.1875em] text-[1.125rem] not-italic font-normal leading-[1.5em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">See menu</button>
 
-            </div>
+            </motion.div>
 
 
           </div>
@@ -135,17 +163,32 @@ export default function HomeCube() {
 
           <div className="flex items-center justify-center mt-[2.5em] lg:mt-[0em]">
 
-            <Image 
-              src={'/rice.svg'} 
-              alt="friend rice icon"
-              width={555} 
-              height={555}
-              className=" transition-all duration-1000 ease-in-out"
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="transition-all duration-1000 ease-in-out"
+            >
+              <Image 
+                src={'/rice.svg'} 
+                alt="friend rice icon"
+                width={555} 
+                height={555}
+                className=""
 
-            />
+              />
+            </motion.div>
 
 
           </div>
+
+
+            
 
 
 

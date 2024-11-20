@@ -1,6 +1,6 @@
 "use client"
 
-
+import { motion } from "framer-motion";
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image"; // Import Next.js Image component
 
@@ -28,7 +28,18 @@ const HomeDropDownTime: React.FC = () => {
   };
 
   return (
-    <div ref={dropdownRef} className="relative mt-[0.875em]">
+    <motion.div ref={dropdownRef} className="relative mt-[0.875em] transition-all duration-1000 ease-in-out"
+    
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0 }}
+      variants={{
+        hidden: { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0 },
+      }}
+    
+    >
       {/* Dropdown Button */}
 
       <div className="flex flex-col ">
@@ -88,7 +99,7 @@ const HomeDropDownTime: React.FC = () => {
           </li>
         </ul>
       )}
-    </div>
+    </motion.div>
   );
 };
 
