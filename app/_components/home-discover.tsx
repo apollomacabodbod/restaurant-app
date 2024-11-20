@@ -95,33 +95,71 @@ export default function HomeDiscover(){
          
 
 
-          <motion.div className="flex flex-col  mt-[3.9375em] lg:mt-[0em] transition-all duration-1000 ease-in-out"
+          <div className="flex flex-col  mt-[3.9375em] lg:mt-[0em] transition-all duration-1000 ease-in-out"
           
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0 }}
-            variants={{
-              hidden: { opacity: 0, y: 10 },
-              visible: { opacity: 1, y: 0 },
-            }}
           
           >
 
-            <p className=" font-roboto text-[1.5rem] not-italic font-light  text-[#333] ">Discover</p>
-            <p className=" font-serif text-[#333]  text-[2.5em]  lg:text-[3.5rem] not-italic font-bold whitespace-nowrap">Our History</p>
+            <motion.p className=" font-roboto text-[1.5rem] not-italic font-light  text-[#333] transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}  
+            
+            >Discover</motion.p>
+            <motion.p className=" font-serif text-[#333]  text-[2.5em]  lg:text-[3.5rem] not-italic font-bold whitespace-nowrap transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}  
+            
+            
+            >Our History</motion.p>
 
-            <p className=" font-roboto text-[1.25rem] not-italic font-light   transition-all duration-1000 ease-in-out  lg:w-[16em] xl:w-[24em] mt-[0.875em] ">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+            <motion.p className=" font-roboto text-[1.25rem] not-italic font-light   lg:w-[16em] xl:w-[24em] mt-[0.875em] transition-all duration-1000 ease-in-out"
+            
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}  
+            
+            >A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</motion.p>
 
 
-            <div className="flex items-center">
+            <motion.div className="flex items-center  transition-all duration-1000 ease-in-out "
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}  
+            
+            >
 
               <button className=" text-[#FFF] text-[1.125rem] font-roboto not-italic font-normal py-[0.75em] px-[2.59375em] bg-[#6327EB] rounded-[0.1875em] mt-[1.4375em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">Read more</button>
 
-            </div>
+            </motion.div>
            
 
-          </motion.div>
+          </div>
 
 
 

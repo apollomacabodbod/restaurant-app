@@ -82,49 +82,125 @@ export default function HomeReserveTable(){
         <div className="lg:flex lg:items-center lg:justify-between  lg:gap-[1.9em] xl:gap-[3.875em] ">
 
 
-          <motion.div className="flex flex-col transition-all duration-1000 ease-in-out "
+          <div className="flex flex-col transition-all duration-1000 ease-in-out "
           
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0 }}
-            variants={{
-              hidden: { opacity: 0, y: 10 },
-              visible: { opacity: 1, y: 0 },
-            }}
         
           >
 
-            <p className=" text-[#333] font-roboto text-[1.5rem] not-italic font-light ">Reserve</p>
-            <p className=" text-[#333] font-pt-serif not-italic font-bold  text-[3.5rem]">A Table</p>
+            <motion.p className=" text-[#333] font-roboto text-[1.5rem] not-italic font-light transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+       
 
-            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em]">Date</p>
+            >Reserve</motion.p>
+            <motion.p className=" text-[#333] font-pt-serif not-italic font-bold  text-[3.5rem] transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+       
+            >A Table</motion.p>
+
+            <motion.p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em] transition-all duration-1000 ease-in-out"
+            
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+       
+            
+            
+            >Date</motion.p>
 
 
-            <input
+            <motion.input
               type="date"
               id="birthday"
               name="birthday"
               value={date} // Set the default value to today's date
               onChange={(e) => setDate(e.target.value)} // Optional: handle value change
-              className="font-roboto font-light border border-gray-300 rounded-[0.3125em] text-[1.25rem] text-[rgba(51,51,51,0.50)] lg:pr-[10em] xl:pr-[15em] mt-[0.875em] py-[0.3em] px-3"
+              className="font-roboto font-light border border-gray-300 rounded-[0.3125em] text-[1.25rem] text-[rgba(51,51,51,0.50)] lg:pr-[10em] xl:pr-[15em] mt-[0.875em] py-[0.3em] px-3 transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+            
+            
             />
-            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em] ">Time</p>
+            <motion.p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em] transition-all duration-1000 ease-in-out"
+            
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+       
+            
+            >Time</motion.p>
 
 
             <HomeReserveDropDown/>
 
 
-            <p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em]">Guest</p>
+            <motion.p className=" font-roboto text-[0.75rem] font-bold uppercase not-italic mt-[2em] transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            
+            >Guest</motion.p>
 
 
             <HomeDropDownGuest/>
 
-            <div className="flex items-center  mt-[1em]  xl:mt-[3em] ">
+            <motion.div className="flex items-center  mt-[1em]  xl:mt-[3em] transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            
+            >
 
               <button className=" text-[#fff]  bg-[#6327EB] py-[0.75em] px-[2.40625em] text-[1.125rem] font-roboto font-normal rounded-[0.1875em] cursor-pointer opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out active:scale-95 active:transition-transform active:duration-200 active:ease-out">Find a table</button>
 
-            </div>
+            </motion.div>
            
 
 
@@ -132,7 +208,7 @@ export default function HomeReserveTable(){
 
 
                 
-          </motion.div>
+          </div>
 
 
 
