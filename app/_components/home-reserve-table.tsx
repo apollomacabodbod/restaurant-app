@@ -73,16 +73,8 @@ export default function HomeReserveTable(){
   return (
     <>
 
-      <motion.div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out"
+      <div className="flex flex-col  lg:bg-white green mx-[2em]  lg:pb-[5em] mb-[5em] lg:mb-[0em] lg:relative  lg:top-[8em]  lg:px-[2em]    xl:px-[4em] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out"
       
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0 }}
-        variants={{
-          hidden: { opacity: 0, y: 10 },
-          visible: { opacity: 1, y: 0 },
-        }}
       
       >
 
@@ -90,8 +82,18 @@ export default function HomeReserveTable(){
         <div className="lg:flex lg:items-center lg:justify-between  lg:gap-[1.9em] xl:gap-[3.875em] ">
 
 
-          <div className="flex flex-col  ">
-
+          <motion.div className="flex flex-col transition-all duration-1000 ease-in-out "
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { opacity: 1, y: 0 },
+            }}
+        
+          >
 
             <p className=" text-[#333] font-roboto text-[1.5rem] not-italic font-light ">Reserve</p>
             <p className=" text-[#333] font-pt-serif not-italic font-bold  text-[3.5rem]">A Table</p>
@@ -130,11 +132,22 @@ export default function HomeReserveTable(){
 
 
                 
-          </div>
+          </motion.div>
 
 
 
-          <div className="flex flex-col mt-[5.75em] lg:mt-[0em] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+          <motion.div className="flex flex-col mt-[5.75em] lg:mt-[0em] drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          
+          >
 
 
             <div className="flex items-center justify-center">
@@ -145,7 +158,7 @@ export default function HomeReserveTable(){
 
             </div>
 
-          </div>
+          </motion.div>
 
 
 
@@ -156,7 +169,7 @@ export default function HomeReserveTable(){
 
 
 
-      </motion.div>
+      </div>
     
     </>
     

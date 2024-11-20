@@ -17,17 +17,8 @@ export function HomeGalleryCarousel() {
 
 
   return (
-    <motion.div className=" mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] "
+    <div className=" mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[-18em] "
     
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ duration: 0 }}
-      variants={{
-        hidden: { opacity: 0, y: 10 },
-        visible: { opacity: 1, y: 0 },
-      }}
-   
     
     >
       <Carousel  className="w-full overflow-hidden relative ">
@@ -36,7 +27,19 @@ export function HomeGalleryCarousel() {
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
             
             
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
+            <motion.div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em] transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+            
+            >
 
               <div className="flex items-center justify-center">
 
@@ -57,14 +60,28 @@ export function HomeGalleryCarousel() {
 
 
 
-            </div>
+            </motion.div>
     
 
           </CarouselItem>
 
           {/* Second Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
+            <motion.div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em] transition-all duration-1000 ease-in-out"
+            
+            
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+
+            >
 
               <div className="flex items-center justify-center">
 
@@ -85,14 +102,28 @@ export function HomeGalleryCarousel() {
 
 
 
-            </div>
+            </motion.div>
 
           </CarouselItem>
 
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
+           
+            <motion.div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em] transition-all duration-1000 ease-in-out"
+            
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+
+            >
 
               <div className="flex items-center justify-center">
 
@@ -113,7 +144,7 @@ export function HomeGalleryCarousel() {
 
 
 
-            </div>
+            </motion.div>
 
           </CarouselItem>
 
@@ -122,7 +153,18 @@ export function HomeGalleryCarousel() {
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em]">
+            <motion.div className="flex flex-col   mx-[2em] lg:mx-[8.4375em] bg-white z-50 drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] rounded-[0.1875em] transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+            >
 
               <div className="flex items-center justify-center">
 
@@ -143,7 +185,7 @@ export function HomeGalleryCarousel() {
 
 
 
-            </div>
+            </motion.div>
 
           </CarouselItem>
 
@@ -165,7 +207,7 @@ export function HomeGalleryCarousel() {
 
       </Carousel>
 
-    </motion.div>
+    </div>
   )
 }
       

@@ -12,16 +12,8 @@ export default function HomeOurChef(){
   return (<>
 
 
-    <motion.div className="flex flex-col  my-[9em] mx-[2em] lg:mx-[5em]  xl:mx-[8.4375em] transition-all duration-1000 ease-in-out"
+    <div className="flex flex-col  my-[9em] mx-[2em] lg:mx-[5em]  xl:mx-[8.4375em] transition-all duration-1000 ease-in-out"
     
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ duration: 0 }}
-      variants={{
-        hidden: { opacity: 0, y: 10 },
-        visible: { opacity: 1, y: 0 },
-      }}
     
     
     >
@@ -32,7 +24,19 @@ export default function HomeOurChef(){
 
 
 
-        <div className="flex flex-col ">
+        <motion.div className="flex flex-col transition-all duration-1000 ease-in-out"
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { opacity: 1, y: 0 },
+          }}
+       
+        
+        >
 
 
           <div className="flex items-center justify-center">
@@ -71,19 +75,82 @@ export default function HomeOurChef(){
 
        
 
-        </div>
+        </motion.div>
 
 
-        <div className="flex flex-col  mt-[4.9375em] lg:mt-[0em]">
+        <div className="flex flex-col  mt-[4.9375em] lg:mt-[0em] transition-all duration-1000 ease-in-out"
+        
+        
+        >
 
-          <p className=" text-[#333] font-roboto text-[1.5rem] not-italic font-light">The word from</p>
-          <p className=" text-[#333] font-pt-serif text-[3.5rem] not-italic font-bold ">Our Chef</p>
+          <motion.p className=" text-[#333] font-roboto text-[1.5rem] not-italic font-light transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { opacity: 1, y: 0 },
+            }}
+        
+          >The word from</motion.p>
 
-          <p className=" lg:max-w-[29.375em] text-[#333] font-roboto text-[1.25rem] not-italic font-light ">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+          <motion.p className=" text-[#333] font-pt-serif text-[3.5rem] not-italic font-bold transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { opacity: 1, y: 0 },
+            }}
+        
+          
+          >Our Chef</motion.p>
+
+          <motion.p className=" lg:max-w-[29.375em] text-[#333] font-roboto text-[1.25rem] not-italic font-light transition-all duration-1000 ease-in-out"
+           
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { opacity: 1, y: 0 },
+            }}
+         
+          
+          >A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</motion.p>
                 
-          <p className=" text-[#333] font-pt-serif text-[1.5rem] font-bold mt-[2em]"> Slavcho Karbashewski</p>
+          <motion.p className=" text-[#333] font-pt-serif text-[1.5rem] font-bold mt-[2em] transition-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { opacity: 1, y: 0 },
+            }}
+        
+          
+          > Slavcho Karbashewski</motion.p>
 
-          <p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[1.25rem] not-italic font-light" >Head Chef</p>
+          <motion.p className=" text-[rgba(51,51,51,0.50)] font-roboto text-[1.25rem] not-italic font-light transition-all duration-1000 ease-in-out" 
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { opacity: 1, y: 0 },
+            }}
+          
+          >Head Chef</motion.p>
                 
         </div>
 
@@ -93,7 +160,7 @@ export default function HomeOurChef(){
 
 
 
-    </motion.div>
+    </div>
     
     
   </>)

@@ -45,24 +45,27 @@ export function CarouselDApiDemo() {
   }, [api, current, count])
 
   return (
-    <motion.div className="mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[2em] "
+    <div className="mx-auto max-w-full  transition-all duration-1000 ease-in-out mb-[2em] "
     
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ duration: 0 }}
-      variants={{
-        hidden: { opacity: 0, y: 10 },
-        visible: { opacity: 1, y: 0 },
-      }}
-   
     
     >
       <Carousel setApi={setApi} className="w-full overflow-hidden ">
         <CarouselContent className="flex snap-x snap-mandatory  scroll-smooth ">
           {/* First Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
+            <motion.div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+            
+            >
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
@@ -79,12 +82,25 @@ export function CarouselDApiDemo() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </CarouselItem>
 
           {/* Second Card */}
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
+            <motion.div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]"
+            
+               
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+            
+            >
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
@@ -101,13 +117,25 @@ export function CarouselDApiDemo() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </CarouselItem>
 
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
+            <motion.div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+            
+            >
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
@@ -124,7 +152,7 @@ export function CarouselDApiDemo() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </CarouselItem>
 
 
@@ -132,7 +160,19 @@ export function CarouselDApiDemo() {
 
 
           <CarouselItem className="flex-shrink-0 w-full snap-start transition-all duration-1000 ease-in-out transform-gpu">
-            <div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]">
+            <motion.div className="flex flex-col mx-[2em] lg:mx-[4.4375em] xl:mx-[8.4375em]  my-[2.4375em] transition-all duration-1000 ease-in-out transform rounded-[0.1875em]"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 },
+              }}
+         
+            
+            >
               <div className="lg:flex lg:items-center lg:justify-center bg-[#333] lg:bg-white lg:gap-[3em] xl:gap-[4.125em] ">
                 <div className="flex flex-col ">
                   <div className="flex items-center justify-center">
@@ -149,7 +189,7 @@ export function CarouselDApiDemo() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </CarouselItem>
 
 
@@ -168,6 +208,6 @@ export function CarouselDApiDemo() {
           ></div>
         ))}
       </div>
-    </motion.div>
+    </div>
   )
 }
