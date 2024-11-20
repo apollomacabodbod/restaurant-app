@@ -40,28 +40,80 @@ export default function HomeRestFooter(){
 
 
 
-      <motion.div className="lg:flex lg:items-center lg:justify-center    lg:gap-[3em] mt-[1.6em] transition-all duration-1000 ease-in-out"
+      <div className="lg:flex lg:items-center lg:justify-center    lg:gap-[3em] mt-[1.6em] transition-all duration-1000 ease-in-out"
       
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0 }}
-        variants={{
-          hidden: { opacity: 0, y: 10 },
-          visible: { opacity: 1, y: 0 },
-        }}
       
       >
 
 
-        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em] lg:mt-[0em]">About us</p>
-        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">Menu</p>
-        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em]  lg:mt-[0em]">Events</p>
-        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">News</p>
-        <p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em]">Contact</p>
+        <motion.p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em] lg:mt-[0em] transition-all duration-1000 ease-in-out"
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        
+        >About us</motion.p>
+        <motion.p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em] transition-all duration-1000 ease-in-out"
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        
+        >Menu</motion.p>
+        <motion.p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center mt-[1.4em]  lg:mt-[0em] transition-all duration-1000 ease-in-out" 
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        
+        
+        >Events</motion.p>
+        <motion.p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em] transition-all duration-1000 ease-in-out"
+        
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        
+        
+        >News</motion.p>
+        <motion.p className=" text-[#fff] font-roboto text-[1.25rem] not-italic font-light text-center  mt-[1.4em] lg:mt-[0em] transition-all duration-1000 ease-in-out"
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        
+        
+        
+        >Contact</motion.p>
 
 
-      </motion.div>
+      </div>
 
 
 
@@ -150,7 +202,7 @@ export default function HomeRestFooter(){
           visible: { opacity: 1, y: 0 },
         }}
       
-      
+
       >2024 Restaurant. All Rights Reserved.</motion.p>
 
 
