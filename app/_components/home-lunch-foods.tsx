@@ -30,13 +30,13 @@ export default function HomeLunchFoods(){
   return (<>
 
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 mt-[1em] mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out  gap-[1em] lg:gap-[0.5em]"
+    <div className="grid grid-cols-1 lg:grid-cols-2 mt-[1em] mx-[2em] lg:mx-[3em] xl:mx-[8.4375em]  transition-all duration-1000 ease-in-out  gap-[1em] lg:gap-[1em] border border-[#50B498] green"
     
     >
 
       {homeFoods.map(item => (
 
-        <motion.div key={item.id} className="flex flex-col  transition-all duration-1000 ease-in-out"
+        <motion.div key={item.id} className="flex flex-col  transition-all duration-1000 ease-in-out border border-[#50B498] green"
         
         
           initial="hidden"
@@ -51,7 +51,7 @@ export default function HomeLunchFoods(){
 
         >
 
-          <div className="lg:flex lg:items-center lg:justify-center lg:gap-[1.25em] ">
+          <div className="lg:flex lg:items-center lg:justify-between lg:gap-[1.25em] border border-[#50B498] green">
 
 
             <div className="flex flex-col "> 
@@ -71,9 +71,9 @@ export default function HomeLunchFoods(){
 
 
 
-            <div className="flex flex-col ">
+            <div className="flex flex-col border border-[#50B498] green">
 
-              <div className="flex items-center justify-between   xl:gap-[7em]">
+              <div className="flex items-center justify-between   gap-[7em]">
                    
 
                 <p className=" text-[#333] font-roboto text-[1.25rem] not-italic font-light ">{item.name}</p>
