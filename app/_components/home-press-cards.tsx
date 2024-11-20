@@ -13,20 +13,24 @@ export default function HomePressCards(){
   return (<>
 
 
-    <motion.div className="grid grid-cols-1 xl:grid-cols-3   mx-[2em] lg:mx-[8.1em] gap-[1.875em] my-[4.3125em] transition-all duration-1000 ease-in-out"
+    <div className="grid grid-cols-1 xl:grid-cols-3   mx-[2em] lg:mx-[8.1em] gap-[1.875em] my-[4.3125em] transition-all duration-1000 ease-in-out"
     
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ duration: 0 }}
-      variants={{
-        hidden: { opacity: 0, y: 10 },
-        visible: { opacity: 1, y: 0 },
-      }}
+    
     
     >
 
-      <div className="flex flex-col   py-[3.0625em] px-[1em] bg-white rounded-[0.1875em]" >
+      <motion.div className="flex flex-col   py-[3.0625em] px-[1em] bg-white rounded-[0.1875em] transition-all duration-1000 ease-in-out" 
+
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      
+      >
 
         <div className="flex items-center justify-center ">
 
@@ -36,11 +40,22 @@ export default function HomePressCards(){
         <p className=" text-center text-[#333] font-roboto text-[1.25rem] not-italic font-light xl:max-w-[17.125em] mt-[1.9em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level.</p>
         <p className=" text-center text-[#333] font-pt-serif text-[1.5rem] not-italic font-bold mt-[1.875em]">The New York Times</p>
 
-      </div>
+      </motion.div>
 
 
 
-      <div className="flex flex-col  py-[3.0625em] px-[1em] bg-white rounded-[0.1875em]">
+      <motion.div className="flex flex-col  py-[3.0625em] px-[1em] bg-white rounded-[0.1875em] transition-all duration-1000 ease-in-out"
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      
+      >
 
         <div className="flex items-center justify-center ">
 
@@ -50,11 +65,24 @@ export default function HomePressCards(){
         <p className=" text-center text-[#333] font-roboto text-[1.25rem] not-italic font-light xl:max-w-[17.125em] mt-[1.5em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level.</p>
         <p className=" text-center text-[#333] font-pt-serif text-[1.5rem] not-italic font-bold mt-[1.875em]">The Guardian</p>
 
-      </div>
+      </motion.div>
 
 
 
-      <div className="flex flex-col  py-[3.0625em] px-[1em] bg-white rounded-[0.1875em]">
+      <motion.div className="flex flex-col  py-[3.0625em] px-[1em] bg-white rounded-[0.1875em] transition-all duration-1000 ease-in-out"
+      
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      
+      
+      >
 
         <div className="flex items-center justify-center ">
 
@@ -64,13 +92,13 @@ export default function HomePressCards(){
         <p className=" text-center text-[#333] font-roboto text-[1.25rem] not-italic font-light xl:max-w-[17.125em] mt-[1.5em]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level.</p>
         <p className=" text-center text-[#333] font-pt-serif text-[1.5rem] not-italic font-bold mt-[1.875em]">The Wall Street Journal</p>
 
-      </div>
+      </motion.div>
 
 
 
 
 
-    </motion.div>
+    </div>
     
     
   </>)
