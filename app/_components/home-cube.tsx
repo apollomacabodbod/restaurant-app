@@ -1,6 +1,23 @@
+"use client"
+
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function HomeCube() {
+
+
+  const Welcome = [
+    "Welcome"
+  ];
+
+
+  const toOur = [
+    " to our"
+  ];
+
+
+
   return (
     <>
       <div className="flex flex-col  mt-[8em]   lg:mt-[6em]  mx-[2em] lg:mx-[8.4375em]  transition-all duration-1000 ease-in-out ">
@@ -13,23 +30,72 @@ export default function HomeCube() {
 
             <div className="relative">
 
-              <p className="text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]  whitespace-nowrap  font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out opacity-70  ">
-               Welcome 
-                <br className="lg:hidden transition-all duration-1000 ease-in-out"/> 
+
+              <motion.p
+                className="text-[#FFF] dark:text-[#FFF] text-[3.5rem]   xl:text-[4.5rem]  whitespace-nowrap  font-bold  font-pt-serif leading-[1.2em] tracking-[0.01em]  transition-all duration-1000 ease-in-out opacity-70 "
+
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: 0.1 }}
+                variants={{
+                  hidden: { opacity: 0, y: 5 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+
+              >
+ Welcome
+
+
+                <motion.br
+                  className="lg:hidden transition-all duration-1000 ease-in-out "
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ duration: 0.1 }}
+                  variants={{
+                    hidden: { opacity: 0, y: 5 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
+
+                />
                 {`${" to our"}`}
 
-              </p>
+
+
+              </motion.p>
+
+
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: 0.1 }}
+                variants={{
+                  hidden: { opacity: 0, y: 5 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+                className="absolute top-[-1em] lg:top-[-1em] xl:top-[-3em] left-[7em] lg:left-[12em] xl:left-[20em] -translate-x-1/2 -translate-y-1/2 transition-all duration-1000 ease-in-out"
+              >
+                <Image
+                  src="/cube.svg"
+                  alt="facebook logo"
+                  width={176}
+                  height={176}
+                  className=""
+                />
+              </motion.div>
 
 
 
-              <Image
+              {/* <Image
                 src={'/cube.svg'}
                 alt="facebook logo"
                 width={176}
                 height={176}
                 // className="border border-[#50B498] absolute top-[2em] left-[16em] md:left-[22em] -translate-x-1/2 -translate-y-1/2 leading-tight tracking-tight"
                 className=" absolute top-[3.5em]    lg:top-[4.5em] xl:top-[2.4em]  left-[12em]     lg:left-[19em] xl:left-[23em]  -translate-x-1/2 -translate-y-1/2  transition-all duration-1000 ease-in-out"
-              />
+              /> */}
 
             </div>
               
