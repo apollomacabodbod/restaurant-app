@@ -251,9 +251,9 @@ export default function HomeCheckout(){
           >
         
         
-            <div className="flex items-center justify-center my-[4.6875em]">
+            <div className="flex items-center justify-center my-[4.6875em] overflow-hidden">
     
-              <Image src={'/home-checkout-salad.svg'} alt="" width={570} height={570} className="rounded-[0.5em] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"></Image>
+              <Image src={'/home-checkout-salad.svg'} alt="" width={570} height={570} className="rounded-[0.5em] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] transition-all duration-700 ease-in-out hover:scale-110"></Image>
 
             </div>
 

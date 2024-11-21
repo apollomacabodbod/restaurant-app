@@ -226,9 +226,9 @@ export default function HomeReserveTable(){
           >
 
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center overflow-hidden">
 
-              <Image src={'/home-our-chef-2.svg'} width={570} height={560} alt="" className="rounded-[0.1875em]"></Image>
+              <Image src={'/home-our-chef-2.svg'} width={570} height={560} alt="" className="rounded-[0.1875em] transition-all duration-700 ease-in-out hover:scale-110"></Image>
 
 
 

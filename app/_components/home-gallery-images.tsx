@@ -45,9 +45,9 @@ export default function HomeGalleryImages(){
           
           >
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center overflow-hidden">
 
-              <Image src={item.image} width={370} height={256} alt="gallery images icon" className="rounded-[0.1875em]"></Image>
+              <Image src={item.image} width={370} height={256} alt="gallery images icon" className="rounded-[0.1875em] transition-all duration-700 ease-in-out hover:scale-110"></Image>
 
             </div>
 

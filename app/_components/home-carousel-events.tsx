@@ -70,8 +70,8 @@ export function CarouselDApiDemo() {
 
               >
                 <div className="flex flex-col ">
-                  <div className="flex items-center justify-center">
-                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
+                  <div className="flex items-center justify-center overflow-hidden">
+                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em] transition-all duration-700 ease-in-out hover:scale-110"></Image>
                   </div>
                 </div>
                 <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
@@ -107,8 +107,8 @@ export function CarouselDApiDemo() {
               
               >
                 <div className="flex flex-col ">
-                  <div className="flex items-center justify-center">
-                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
+                  <div className="flex items-center justify-center overflow-hidden">
+                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em] transition-all duration-700 ease-in-out hover:scale-110"></Image>
                   </div>
                 </div>
                 <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
@@ -146,8 +146,8 @@ export function CarouselDApiDemo() {
          
               >
                 <div className="flex flex-col ">
-                  <div className="flex items-center justify-center">
-                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
+                  <div className="flex items-center justify-center overflow-hidden">
+                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em] transition-all duration-700 ease-in-out hover:scale-110"></Image>
                   </div>
                 </div>
                 <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
@@ -187,8 +187,8 @@ export function CarouselDApiDemo() {
               
               >
                 <div className="flex flex-col ">
-                  <div className="flex items-center justify-center">
-                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em]"></Image>
+                  <div className="flex items-center justify-center overflow-hidden">
+                    <Image src={"/home-events.svg"} width={570} height={570} alt="" className="lg:min-w-[28.625em] transition-all duration-700 ease-in-out hover:scale-110"></Image>
                   </div>
                 </div>
                 <div className="flex flex-col  bg-[#333] lg:bg-white lg:px-[1.875em]  py-[3em] lg:py-[1em] ">
