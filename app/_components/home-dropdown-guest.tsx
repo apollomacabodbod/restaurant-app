@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 import React, { useState, useRef, useEffect } from "react";
-import Image from "next/image"; // Import Next.js Image component
+import Image from "next/image";
 
 const HomeDropDownGuest: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,8 +28,9 @@ const HomeDropDownGuest: React.FC = () => {
   };
 
   return (
-    <motion.div ref={dropdownRef} className="relative mt-[0.875em] transition-all duration-1000 ease-in-out"
-    
+    <motion.div
+      ref={dropdownRef}
+      className="relative mt-[0.875em] transition-all duration-1000 ease-in-out"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
@@ -38,68 +39,51 @@ const HomeDropDownGuest: React.FC = () => {
         hidden: { opacity: 0, y: 10 },
         visible: { opacity: 1, y: 0 },
       }}
-    
-    
     >
       {/* Dropdown Button */}
-
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
         <button
           onClick={() => setIsOpen((prev) => !prev)}
-          className={`flex justify-between items-center px-3 py-[0.3em] border border-gray-300 rounded-t-md font-light  text-[1.25rem] font-roboto ${
-            isOpen ? "rounded-b-none" : "rounded-md"
-          }`}
+          className={`flex justify-between items-center px-4 py-[0.3em] border ${
+            isOpen ? "border-gray-300 border-b-white rounded-t-md" : "border-gray-300 rounded-md"
+          } font-light text-[1.25rem] font-roboto`}
         >
           <span className="text-[rgba(51,51,51,0.50)]">{selectedOption}</span>
 
-          {/* Dropdown icon as an image */}
-          <div
-            className={`transform transition-transform ${
-              isOpen ? "rotate-180" : "rotate-0"
-            }`}
+          {/* Dropdown icon */}
+          <motion.div
+            className="transform"
+            animate={{ rotate: isOpen ? 180 : 0 }}
+            transition={{ duration: 0.3 }}
           >
             <Image
-              src="/home-reserve-table.svg" // Provide the correct path or URL to the image
+              src="/home-reserve-table.svg"
               alt="Dropdown icon"
-              width={10} // Set the width of the image
-              height={6} // Set the height of the image
-              priority // Optional: ensure the image loads with high priority
+              width={10}
+              height={6}
+              priority
             />
-          </div>
+          </motion.div>
         </button>
-
       </div>
-    
 
       {/* Dropdown Menu */}
-      {isOpen && (
-        <ul className="absolute left-0 right-0 bg-gray-100 border border-t-0 border-gray-300 rounded-b-md shadow-md text-sm z-10">
+      <motion.ul
+        initial={{ opacity: 0, height: 0 }}
+        animate={isOpen ? { opacity: 1, height: "auto" } : { opacity: 0, height: 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+        className="absolute left-0 right-0 bg-white border border-t-0 border-gray-300 rounded-b-md shadow-md text-sm z-10 overflow-hidden"
+      >
+        {["3 People", "4 People", "5 People", "6 People"].map((option) => (
           <li
-            onClick={() => handleOptionClick("3 People")}
-            className="px-4 py-[0.5em] hover:bg-gray-200 cursor-pointer font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]"
+            key={option}
+            onClick={() => handleOptionClick(option)}
+            className="px-4 py-[0.5em] hover:bg-gray-200 cursor-pointer font-roboto font-light text-[1.25rem] text-[rgba(51,51,51,0.50)]"
           >
-           3 People
+            {option}
           </li>
-          <li
-            onClick={() => handleOptionClick("4 People")}
-            className="px-4 py-[0.5em] hover:bg-gray-200 cursor-pointer font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]"
-          >
-           4 People
-          </li>
-          <li
-            onClick={() => handleOptionClick("5 People")}
-            className="px-4 py-[0.5em] hover:bg-gray-200 cursor-pointer font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]"
-          >
-             5 People
-          </li>
-          <li
-            onClick={() => handleOptionClick("6 People")}
-            className="px-4 py-[0.5em] hover:bg-gray-200 cursor-pointer font-roboto font-light  text-[1.25rem] text-[rgba(51,51,51,0.50)]"
-          >
-            6 People
-          </li>
-        </ul>
-      )}
+        ))}
+      </motion.ul>
     </motion.div>
   );
 };
